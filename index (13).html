@@ -1,0 +1,1354 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>RIT Distrileco 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Socialización del Reglamento Interno de Trabajo de Distrileco Caucasia S.A.S. — derechos, deberes, cesantías, proceso disciplinario y SST.">
+<meta name="theme-color" content="#1F2933">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: barra superior con navegación, contenido en columna de lectura (~68ch); herramientas en rejilla; barra inferior en teléfono. Identidad tomada de la presentación (pizarra + azul institucional + rojo Distrileco). */
+:root{
+  --bg:#F4F6F9; --surface:#FFFFFF; --surface-2:#EDF1F5; --ink:#1F2933; --ink-2:#3E4C59; --muted:#66727F; --line:#D8DEE6;
+  --accent:#3B6EA8; --accent-ink:#FFFFFF; --accent-soft:#E3ECF6;
+  --red:#C2362F; --red-soft:#FBEAE8; --gold:#B7791F; --gold-soft:#FBF1DF; --green:#2F7D5B; --green-soft:#E3F2EA;
+  --hero:#1F2933; --hero-ink:#F4F6F9; --hero-muted:#AAB6C2;
+  --f-display:"Libre Baskerville", Georgia, "Times New Roman", serif;
+  --f-body:"Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --r:10px; --shadow:0 1px 2px rgba(31,41,51,.06),0 4px 14px rgba(31,41,51,.06);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12181F; --surface:#1A222B; --surface-2:#222C37; --ink:#E6EBF0; --ink-2:#C3CCD5; --muted:#8C99A6; --line:#2E3A46;
+  --accent:#7BA7DA; --accent-ink:#0F1820; --accent-soft:#1F3248;
+  --red:#F08A80; --red-soft:#3A2220; --gold:#E3B25E; --gold-soft:#372B18; --green:#6CC59B; --green-soft:#183027;
+  --hero:#0C1117; --hero-ink:#E6EBF0; --hero-muted:#8C99A6; --shadow:0 1px 2px rgba(0,0,0,.3); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12181F; --surface:#1A222B; --surface-2:#222C37; --ink:#E6EBF0; --ink-2:#C3CCD5; --muted:#8C99A6; --line:#2E3A46;
+  --accent:#7BA7DA; --accent-ink:#0F1820; --accent-soft:#1F3248;
+  --red:#F08A80; --red-soft:#3A2220; --gold:#E3B25E; --gold-soft:#372B18; --green:#6CC59B; --green-soft:#183027;
+  --hero:#0C1117; --hero-ink:#E6EBF0; --hero-muted:#8C99A6; --shadow:0 1px 2px rgba(0,0,0,.3); color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--hero)}
+a{color:var(--accent)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+h1,h2,h3{text-wrap:balance;line-height:1.25;margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.read{max-width:760px}
+.ico{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* Barra superior */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--hero);color:var(--hero-ink);border-bottom:1px solid rgba(255,255,255,.06)}
+.top .wrap{display:flex;align-items:center;gap:14px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;min-width:0}
+.brand img{width:38px;height:38px;border-radius:50%;background:#fff;padding:2px}
+.brand b{display:block;font-size:14px;letter-spacing:.02em}
+.brand small{display:block;font-size:11.5px;color:var(--hero-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nav{display:flex;gap:2px;margin-left:auto}
+.nav a{color:var(--hero-muted);text-decoration:none;font-size:14px;font-weight:600;padding:8px 12px;border-radius:8px;display:flex;align-items:center;gap:7px}
+.nav a:hover{color:var(--hero-ink);background:rgba(255,255,255,.06)}
+.nav a.on{color:var(--hero-ink);background:rgba(255,255,255,.1)}
+.btn-present{display:flex;align-items:center;gap:8px;background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;padding:8px 12px;font-weight:700;font-size:14px;cursor:pointer;white-space:nowrap}
+.tabbar{display:none}
+@media (max-width:860px){
+  .nav{display:none}
+  .btn-present span{display:none}
+  .btn-present{margin-left:auto}
+  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--surface);border-top:1px solid var(--line);padding:6px max(6px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(6px,env(safe-area-inset-left,0px))}
+  .tabbar a{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;font-weight:600;color:var(--muted);text-decoration:none;padding:4px 0;border-radius:8px}
+  .tabbar a.on{color:var(--accent)}
+  main{padding-bottom:84px}
+}
+
+/* Hero */
+.hero{background:var(--hero);color:var(--hero-ink)}
+.hero .wrap{padding-block:44px 52px;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:40px;align-items:center}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.hero .eyebrow{color:#9DBFE6}
+.hero h1{font-family:var(--f-display);font-weight:400;font-size:clamp(28px,4.4vw,44px);margin:12px 0 16px}
+.hero h1 em{font-style:italic;color:#9DBFE6}
+.hero p{color:var(--hero-muted);max-width:56ch;margin:0}
+.hero .who{display:flex;align-items:center;gap:12px;margin-top:22px;font-size:14px;color:var(--hero-muted)}
+.hero .who img{width:52px;background:#fff;border-radius:6px;padding:4px}
+.hero .who b{color:var(--hero-ink);display:block}
+.prog{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:22px;display:grid;gap:14px}
+.prog .ring{display:flex;align-items:center;gap:16px}
+.prog svg{width:84px;height:84px;flex:none}
+.prog .big{font-family:var(--f-display);font-size:30px;line-height:1}
+.prog small{color:var(--hero-muted);font-size:13px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.b{display:inline-flex;align-items:center;gap:8px;border-radius:9px;padding:10px 16px;font-weight:700;font-size:14.5px;text-decoration:none;border:1px solid transparent;cursor:pointer;background:var(--surface-2);color:var(--ink)}
+.b.pri{background:var(--accent);color:var(--accent-ink)}
+.b.ghost{background:transparent;border-color:var(--line);color:var(--ink)}
+.hero .b.ghost{border-color:rgba(255,255,255,.25);color:var(--hero-ink)}
+.b.danger{background:var(--red-soft);color:var(--red)}
+.b.sm{padding:7px 11px;font-size:13px}
+.b:disabled{opacity:.5;cursor:not-allowed}
+@media (max-width:760px){.hero .wrap{grid-template-columns:1fr;gap:24px;padding-block:30px 34px}}
+
+/* Secciones */
+.sec{padding-block:36px}
+.sec-h{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.sec-h h2{font-family:var(--f-display);font-weight:400;font-size:clamp(22px,3vw,28px)}
+.sec-h p{margin:4px 0 0;color:var(--muted);max-width:60ch}
+.mods{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:900px){.mods{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.mods{grid-template-columns:1fr}}
+.mod{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;text-decoration:none;color:inherit;display:grid;grid-template-rows:auto auto 1fr auto;gap:8px;transition:border-color .15s, transform .15s}
+.mod:hover{border-color:var(--accent);transform:translateY(-1px)}
+.mod .mh{display:flex;align-items:center;justify-content:space-between}
+.mod .mi{width:40px;height:40px;border-radius:10px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center}
+.mod .num{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.1em}
+.mod h3{font-size:17px}
+.mod p{margin:0;color:var(--muted);font-size:14px}
+.bar{height:6px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--green);border-radius:99px}
+.mod .mf{display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--muted)}
+.mod .mf .bar{flex:1}
+
+.commits{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;counter-reset:c}
+@media (max-width:900px){.commits{grid-template-columns:1fr}}
+.commit{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:10px;font-weight:600;font-size:14.5px;line-height:1.4}
+@media (max-width:900px){.commit{flex-direction:row;align-items:center}}
+.commit .ci{width:36px;height:36px;border-radius:50%;background:var(--gold-soft);color:var(--gold);display:grid;place-items:center;flex:none}
+
+/* Lección */
+.crumbs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:var(--muted);margin-bottom:10px}
+.crumbs a{color:var(--muted);text-decoration:none}
+.crumbs a:hover{color:var(--accent)}
+.lesson-h h1{font-family:var(--f-display);font-weight:400;font-size:clamp(24px,3.4vw,34px);margin:8px 0 6px}
+.refs{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px}
+.chip{font-size:12px;font-weight:600;background:var(--surface-2);color:var(--ink-2);border-radius:99px;padding:3px 10px;white-space:nowrap}
+.blocks{display:grid;gap:18px;margin-top:22px}
+.blocks p{margin:0}
+.lead{font-size:18px;line-height:1.55;color:var(--ink-2);border-left:3px solid var(--accent);padding-left:16px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;gap:6px;align-content:start;min-width:0}
+.card .ch{display:flex;align-items:center;gap:10px;font-weight:700}
+.card .ci{color:var(--accent)}
+.card .tag{display:inline-block;font-size:12px;font-weight:700;color:var(--accent);background:var(--accent-soft);border-radius:6px;padding:2px 8px;justify-self:start}
+.card p{color:var(--ink-2);font-size:14.5px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));gap:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.stat .n{font-family:var(--f-display);font-size:38px;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums}
+.stat .n small{font-family:var(--f-body);font-size:14px;font-weight:700;color:var(--ink-2);margin-left:4px}
+.stat b{display:block;margin-top:8px;font-size:14.5px}
+.stat p{font-size:13.5px;color:var(--muted);margin-top:2px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14.5px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+th{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--surface-2)}
+tr:last-child td{border-bottom:0}
+tr.cur td{background:var(--accent-soft);font-weight:700}
+.steps{display:grid;gap:0;counter-reset:s}
+.step{display:grid;grid-template-columns:40px minmax(0,1fr);gap:14px;position:relative;padding-bottom:18px}
+.step:not(:last-child)::before{content:"";position:absolute;left:19px;top:40px;bottom:0;width:2px;background:var(--line)}
+.step .sn{width:40px;height:40px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-weight:800;counter-increment:s}
+.step .sn::before{content:counter(s)}
+.step b{display:block;padding-top:8px}
+.step p{color:var(--ink-2);font-size:14.5px}
+.lst{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px}
+.lst h4{margin:0 0 8px;font-size:15px;display:flex;gap:8px;align-items:center}
+.lst ul{margin:0;padding:0;list-style:none;display:grid;gap:7px}
+.lst li{display:grid;grid-template-columns:18px minmax(0,1fr);gap:8px;font-size:14.5px;color:var(--ink-2)}
+.lst li::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);margin-top:9px;justify-self:center}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px}
+.callout{display:grid;grid-template-columns:22px minmax(0,1fr);gap:12px;border-radius:var(--r);padding:14px 16px;font-size:14.5px}
+.callout.info{background:var(--accent-soft);color:var(--ink)}
+.callout.info .ico{color:var(--accent)}
+.callout.warn{background:var(--red-soft)}
+.callout.warn .ico{color:var(--red)}
+.callout.ok{background:var(--green-soft)}
+.callout.ok .ico{color:var(--green)}
+.callout.gold{background:var(--gold-soft)}
+.callout.gold .ico{color:var(--gold)}
+.org{display:grid;gap:6px}
+.org div{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 14px;font-weight:600;font-size:14.5px;display:flex;gap:10px;align-items:center}
+.org div span{font-size:12px;font-weight:800;color:var(--accent);width:18px}
+.more{border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+.more summary{cursor:pointer;padding:12px 16px;font-weight:700;font-size:14.5px;display:flex;gap:8px;align-items:center;list-style:none}
+.more summary::-webkit-details-marker{display:none}
+.more[open] summary{border-bottom:1px solid var(--line)}
+.more div{padding:12px 16px;color:var(--ink-2);font-size:14.5px}
+.pager{display:flex;justify-content:space-between;gap:10px;margin-top:30px;padding-top:20px;border-top:1px solid var(--line);flex-wrap:wrap}
+.pager a{display:grid;gap:2px;text-decoration:none;color:inherit;padding:10px 14px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);max-width:48%;min-width:0}
+.pager a small{color:var(--muted);font-size:12px}
+.pager a b{font-size:14px;line-height:1.35}
+.pager a.nx{text-align:right;margin-left:auto}
+@media (max-width:560px){.pager a{max-width:100%;width:100%}}
+.done-row{display:flex;align-items:center;gap:12px;margin-top:24px;flex-wrap:wrap}
+.done-pill{display:inline-flex;align-items:center;gap:6px;color:var(--green);background:var(--green-soft);font-weight:700;font-size:13px;padding:5px 10px;border-radius:99px}
+
+/* Lista de temas */
+.toc{display:grid;gap:22px}
+.toc-m{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.toc-m header{display:flex;gap:14px;align-items:center;padding:16px 18px;background:var(--surface-2)}
+.toc-m header .mi{width:40px;height:40px;border-radius:10px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;flex:none}
+.toc-m header h3{font-size:17px}
+.toc-m header p{margin:0;font-size:13px;color:var(--muted)}
+.toc-m ol{list-style:none;margin:0;padding:0}
+.toc-m li a{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:10px;align-items:center;padding:12px 18px;border-top:1px solid var(--line);text-decoration:none;color:inherit;font-size:15px}
+.toc-m li a:hover{background:var(--surface-2)}
+.toc-m li .k{font-size:12px;font-weight:800;color:var(--muted);font-variant-numeric:tabular-nums}
+.tick{width:22px;height:22px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center}
+.tick.on{background:var(--green);border-color:var(--green);color:#fff}
+.tick .ico{width:13px;height:13px;stroke-width:3}
+
+/* Buscar */
+.search{display:flex;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px 6px 4px 14px}
+.search input{border:0;background:transparent;flex:1;padding:10px 0;outline:none;min-width:0;font-size:16px}
+.results{display:grid;gap:10px;margin-top:14px}
+.res{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 16px;text-decoration:none;color:inherit}
+.res small{color:var(--muted);font-size:12px;font-weight:600}
+.res b{display:block}
+.res p{margin:4px 0 0;color:var(--ink-2);font-size:14px}
+mark{background:var(--gold-soft);color:inherit;border-radius:3px;padding:0 2px}
+
+/* Herramientas */
+.tools-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.tools-nav button{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:8px 14px;font-weight:600;font-size:14px;cursor:pointer;display:flex;gap:8px;align-items:center}
+.tools-nav button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tool{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:18px;align-items:start}
+@media (max-width:820px){.tool{grid-template-columns:1fr}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:14px;min-width:0}
+.panel h3{font-size:18px}
+.panel > p{margin:0;color:var(--muted);font-size:14px}
+.f{display:grid;gap:5px}
+.f label{font-size:13px;font-weight:700;color:var(--ink-2)}
+.f input,.f select,.f textarea{width:100%;border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:10px 12px;font-size:16px;font-variant-numeric:tabular-nums}
+.f .hint{font-size:12.5px;color:var(--muted)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:420px){.row2{grid-template-columns:1fr}}
+.chk{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.chk input{width:20px;height:20px;margin-top:2px;accent-color:var(--accent);flex:none}
+.out{display:grid;gap:0}
+.out .ln{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line);font-size:14.5px}
+.out .ln span:last-child{font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.out .ln.tot{border-bottom:0;padding-top:12px;font-size:17px}
+.out .ln.tot span:last-child{color:var(--accent);font-family:var(--f-display)}
+.fine{font-size:12.5px;color:var(--muted);margin:0}
+.dl{display:grid;gap:8px}
+.dl .d{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:12px 14px;border-radius:9px;background:var(--surface-2)}
+.dl .d b{display:block;font-size:14.5px}
+.dl .d small{color:var(--muted);font-size:12.5px}
+.dl .d .dt{font-weight:800;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.status{font-weight:700;border-radius:8px;padding:10px 12px;font-size:14px}
+.status.ok{background:var(--green-soft);color:var(--green)}
+.status.bad{background:var(--red-soft);color:var(--red)}
+
+/* Evaluación */
+.quiz{max-width:720px}
+.qhead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;font-size:13px;color:var(--muted);font-weight:600}
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px}
+.qcard h3{font-family:var(--f-display);font-weight:400;font-size:21px;margin-bottom:16px}
+.opts{display:grid;gap:8px}
+.opt{text-align:left;border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:12px 14px;cursor:pointer;font-size:15px;display:flex;gap:12px;align-items:center}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt .lt{width:26px;height:26px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;font-size:12px;font-weight:800;flex:none}
+.opt.ok{border-color:var(--green);background:var(--green-soft)}
+.opt.bad{border-color:var(--red);background:var(--red-soft)}
+.opt:disabled{cursor:default}
+.expl{margin-top:14px}
+.score{text-align:center;display:grid;gap:10px;justify-items:center}
+.score .big{font-family:var(--f-display);font-size:56px;line-height:1;color:var(--accent)}
+
+/* Constancia */
+.sig{border:1.5px dashed var(--line);border-radius:10px;background:var(--bg);touch-action:none;width:100%;height:170px;display:block;cursor:crosshair}
+.const-txt{font-family:var(--f-display);font-size:15px;line-height:1.75;color:var(--ink-2);background:var(--surface-2);border-radius:10px;padding:16px}
+.plan{display:grid;gap:8px}
+.pl{display:grid;grid-template-columns:minmax(0,1fr) 120px auto;gap:12px;align-items:center;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.pl b{display:block;font-size:14.5px}
+.pl small{color:var(--muted);font-size:12.5px;display:block}
+.pl img{width:120px;height:48px;object-fit:contain;background:#fff;border-radius:6px;border:1px solid var(--line)}
+@media (max-width:520px){.pl{grid-template-columns:minmax(0,1fr) auto}.pl img{grid-column:1/-1;width:100%;height:60px}}
+.toast{position:fixed;left:50%;bottom:calc(96px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-weight:600;font-size:14px;z-index:90;box-shadow:var(--shadow)}
+@media (min-width:861px){.toast{bottom:calc(24px + env(safe-area-inset-bottom,0px))}}
+
+/* Contacto */
+.contact{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:760px){.contact{grid-template-columns:1fr}}
+.contact .card .v{font-weight:700;word-break:break-word;user-select:all}
+
+footer{border-top:1px solid var(--line);margin-top:30px}
+footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+
+/* Modo presentación */
+.pres{position:fixed;inset:0;z-index:100;background:var(--hero);color:var(--hero-ink);display:grid;grid-template-rows:auto minmax(0,1fr) auto;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
+.pres-top,.pres-bot{display:flex;align-items:center;gap:10px;padding:10px 16px;font-size:13px;color:var(--hero-muted)}
+.pres-top b{color:var(--hero-ink)}
+.pres-top .sp,.pres-bot .sp{flex:1}
+.pb{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:var(--hero-ink);border-radius:8px;padding:8px 12px;cursor:pointer;display:flex;align-items:center;gap:6px;font-weight:600;font-size:13px}
+.pb.on{background:var(--accent);color:var(--accent-ink);border-color:transparent}
+.stage-wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;min-height:0}
+.stage{overflow:auto;display:flex;justify-content:center;padding:8px 16px 16px}
+.slide{--bg:#F7F9FB;--surface:#FFFFFF;--surface-2:#EDF1F5;--ink:#1F2933;--ink-2:#3E4C59;--muted:#66727F;--line:#D8DEE6;--accent:#3B6EA8;--accent-ink:#fff;--accent-soft:#E3ECF6;--red:#C2362F;--red-soft:#FBEAE8;--gold:#B7791F;--gold-soft:#FBF1DF;--green:#2F7D5B;--green-soft:#E3F2EA;
+  color-scheme:light;background:var(--bg);color:var(--ink);width:min(100%,1180px);border-radius:12px;padding:clamp(20px,3.4vw,44px);align-self:flex-start;box-shadow:0 20px 60px rgba(0,0,0,.35);position:relative}
+.slide .eyebrow{font-size:12.5px}
+.slide h2{font-family:var(--f-display);font-weight:400;font-size:clamp(22px,2.8vw,34px);margin:8px 0 4px}
+.slide .blocks{margin-top:16px;gap:14px}
+.slide .sfoot{display:flex;justify-content:space-between;margin-top:20px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}
+.slide.dark{background:#1F2933;color:#F4F6F9;min-height:min(70vh,640px);display:flex;flex-direction:column;justify-content:center}
+.slide.dark h2{font-size:clamp(30px,5vw,58px);color:#fff}
+.slide.dark p{color:#AAB6C2;max-width:60ch}
+.slide.dark .eyebrow{color:#9DBFE6}
+.slide .cover-logos{display:flex;gap:18px;align-items:center;margin-bottom:24px}
+.slide .cover-logos img{height:64px;background:#fff;border-radius:8px;padding:5px}
+.notes{width:min(380px,40vw);background:#111820;border-left:1px solid rgba(255,255,255,.08);overflow:auto;padding:16px 18px;font-size:14.5px;line-height:1.6;color:#C9D3DD}
+.notes h4{margin:0 0 8px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#9DBFE6}
+@media (max-width:760px){.stage-wrap{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) auto}.notes{width:auto;max-height:34vh;border-left:0;border-top:1px solid rgba(255,255,255,.08)}}
+.pdots{height:3px;background:rgba(255,255,255,.08)}
+.pdots i{display:block;height:100%;background:var(--accent);transition:width .2s}
+
+@media print{
+  .top,.tabbar,footer,.no-print,.toast{display:none!important}
+  body{background:#fff;color:#000}
+  .sec{padding:0}
+  .print-only{display:block!important}
+}
+.print-only{display:none}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio">
+      <img src="logo-distrileco.png" alt="Distrileco">
+      <span><b>Reglamento Interno de Trabajo</b><small>Distrileco Caucasia S.A.S. · 2026</small></span>
+    </a>
+    <nav class="nav" id="nav"></nav>
+    <button class="btn-present" id="btnPresent" type="button" title="Modo presentación (P)"><svg class="ico"><use href="#i-screen"/></svg><span>Presentar</span></button>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<nav class="tabbar" id="tabbar"></nav>
+
+<footer class="no-print">
+  <div class="wrap">
+    <span>Contenido jurídico: Dr. Juan David Tangarife Vélez · Vélez Rivero Abogados, asesor jurídico de Distrileco Caucasia S.A.S.</span>
+    <span>App: Vibras Positivas HM</span>
+  </div>
+</footer>
+
+<div class="pres" id="pres" hidden>
+  <div class="pres-top">
+    <b id="pCount">1 / 1</b><span id="pSec"></span><span class="sp"></span>
+    <button class="pb" id="pNotes" type="button">Notas (N)</button>
+    <button class="pb" id="pFull" type="button">Pantalla completa</button>
+    <button class="pb" id="pClose" type="button" aria-label="Cerrar presentación"><svg class="ico"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="stage-wrap">
+    <div class="stage" id="stage"></div>
+    <aside class="notes" id="notes" hidden></aside>
+  </div>
+  <div>
+    <div class="pdots"><i id="pBar"></i></div>
+    <div class="pres-bot">
+      <button class="pb" id="pPrev" type="button"><svg class="ico"><use href="#i-left"/></svg> Anterior</button>
+      <span class="sp"></span><span>Flechas o deslizar para avanzar</span><span class="sp"></span>
+      <button class="pb" id="pNext" type="button">Siguiente <svg class="ico"><use href="#i-right"/></svg></button>
+    </div>
+  </div>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+    <symbol id="i-activity" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+    <symbol id="i-warn" viewBox="0 0 24 24"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+    <symbol id="i-checkc" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></symbol>
+    <symbol id="i-calc" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="11" x2="8.01" y2="11"/><line x1="12" y1="11" x2="12.01" y2="11"/><line x1="16" y1="11" x2="16.01" y2="11"/><line x1="8" y1="15" x2="8.01" y2="15"/><line x1="12" y1="15" x2="12.01" y2="15"/><line x1="16" y1="15" x2="16" y2="19"/><line x1="8" y1="19" x2="12" y2="19"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></symbol>
+    <symbol id="i-screen" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><polyline points="22 6 12 13 2 6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  </defs>
+</svg>
+
+<script>
+"use strict";
+/* ====================== DATOS ====================== */
+var SMMLV = 1750905;      // Decreto 1469 de 2025 / Decreto 0159 de 2026
+var AUXT = 249095;        // Decreto 1470 de 2025
+var HORAS_MES = 210;      // 42 h semanales / 6 × 30 (desde 15-jul-2026)
+var FOOT = "Reglamento Interno de Trabajo · Distrileco Caucasia S.A.S.";
+
+var MODS = [
+ {id:"reglamento", n:"01", i:"book", t:"Reglamento Interno de Trabajo", d:"Naturaleza, fuerza vinculante y actualización 2026"},
+ {id:"relaciones", n:"02", i:"users", t:"Relaciones laborales", d:"Contratos, jornada, recargos, descansos, licencias y salario"},
+ {id:"cesantias", n:"03", i:"db", t:"Prestaciones sociales y cesantías", d:"Consignación, intereses y retiro parcial o definitivo"},
+ {id:"disciplinario", n:"04", i:"shield", t:"Proceso disciplinario", d:"Deberes, prohibiciones, faltas, sanciones y debido proceso",
+   lead:"Ninguna sanción es válida sin falta previamente prevista, sin proporcionalidad y sin el agotamiento íntegro del procedimiento con debido proceso.",
+   refs:"Artículos 90 a 93 y 108 del RIT · Artículos 111 a 115 del CST · Artículo 7 de la Ley 2466 de 2025 · Sentencia C-593 de 2014",
+   notes:"Transición al bloque central de la charla. Advertir que este es el bloque que más interesa tanto a jefes de área como a trabajadores, porque protege a ambos: al trabajador frente a la arbitrariedad y a la empresa frente a la nulidad de sus decisiones."},
+ {id:"sst", n:"05", i:"activity", t:"Seguridad y salud en el trabajo", d:"Accidente de trabajo, enfermedad laboral, incapacidades y exámenes médicos",
+   lead:"Qué hacer, y en qué plazos, ante un accidente de trabajo, una enfermedad laboral o una incapacidad.",
+   refs:"Artículos 70 a 81 del RIT · Ley 1562 de 2012 · Decreto 1295 de 1994 · Decreto 1072 de 2015 · Resolución 1401 de 2007 · Resolución 1843 de 2025",
+   notes:"Transición al bloque de seguridad y salud en el trabajo. Mensaje de entrada: en materia de riesgos laborales el tiempo es determinante; el reporte inmediato protege al trabajador y a la empresa."},
+ {id:"convivencia", n:"06", i:"chat", t:"Convivencia laboral y cierre", d:"Acoso laboral, canales de reclamo y compromisos"}
+];
+
+var L = [
+/* ---------- 01 REGLAMENTO ---------- */
+{id:"que-es", m:"reglamento", t:"¿Qué es el Reglamento Interno de Trabajo y por qué nos obliga?", s:3,
+ refs:["Art. 104 CST","Arts. 1, 100, 101, 109 a 114 RIT"],
+ b:[
+  {t:"lead", x:"Es el conjunto de normas que determina las condiciones a que deben sujetarse el empleador y sus trabajadores en la prestación del servicio (artículo 104 del Código Sustantivo del Trabajo)."},
+  {t:"cards", items:[
+   {i:"link", h:"Parte de tu contrato", x:"Hace parte integral de cada contrato individual de trabajo. Su firma implica la aceptación del Reglamento (artículos 1, 112 y 113 del RIT)."},
+   {i:"shield", h:"Nunca para desmejorar", x:"Solo puede modificarse en condiciones que no desmejoren al trabajador; en caso de duda se aplica la interpretación más favorable (artículos 109 y 110)."},
+   {i:"send", h:"Publicación", x:"Se fija en cartelera visible y se entrega copia a cada trabajador al vincularse o al modificarse (arts. 100 y 101)."},
+   {i:"checkc", h:"Constancia", x:"Cada trabajador deja constancia escrita de haberlo recibido, leído y entendido (art. 113)."},
+   {i:"lock", h:"Jerarquía", x:"Toda cláusula contraria a normas de orden público se tiene por no escrita (art. 114)."}
+  ]},
+  {t:"callout", k:"info", i:"book", x:"El Reglamento no es un documento decorativo: es fuente de obligaciones recíprocas. Desconocer su contenido no exime de cumplirlo; por eso existe esta socialización y la constancia de recibo."}
+ ],
+ n:"Explicar que el Reglamento no es un documento decorativo: es fuente de obligaciones recíprocas. El desconocimiento de su contenido no exime de su cumplimiento, de allí la importancia de esta socialización y de la constancia de recibo."},
+
+{id:"actualizado", m:"reglamento", t:"Un reglamento actualizado y conforme a la ley", s:4,
+ refs:["Ley 2466 de 2025","Resolución 2708 de 2026","Art. 111 RIT"],
+ b:[
+  {t:"lead", x:"El Reglamento de Distrileco Caucasia S.A.S. fue actualizado en junio de 2026 y da cumplimiento a la reforma laboral (Ley 2466 de 2025), a la reducción de la jornada a 42 horas semanales, al derecho a la desconexión laboral, a las modalidades de trabajo no presencial, a la licencia parental, a la prevención del acoso laboral y a las normas de seguridad y salud en el trabajo."},
+  {t:"list", h:"Lo nuevo que trae", i:"checkc", items:[
+   "Contrato indefinido como regla general",
+   "Jornada nocturna desde las 7:00 p. m. y recargo dominical gradual",
+   "Nuevas licencias remuneradas",
+   "Procedimiento disciplinario formal con debido proceso",
+   "Exámenes médicos ocupacionales y SG-SST actualizados"
+  ]},
+  {t:"callout", k:"ok", i:"shield", x:"Fue además verificado frente a la Resolución 2708 de 2026 del Ministerio del Trabajo, de modo que sus disposiciones se sustentan en la Constitución, la ley y la jurisprudencia de las altas cortes (art. 111 del RIT)."},
+  {t:"more", h:"Normas incorporadas", x:"Ley 2466 de 2025 · Ley 2101 de 2021 · Ley 2191 de 2021 · Leyes 1221 de 2008, 2088 y 2121 de 2021 · Ley 2114 de 2021 · Ley 1010 de 2006 · Resolución 1843 de 2025 · Decreto 1072 de 2015."}
+ ],
+ n:"Mensaje breve: el Reglamento está al día. Mencionar de paso las normas incorporadas (Ley 2466 de 2025, Ley 2101 de 2021, Ley 2191 de 2021, Leyes 1221 de 2008, 2088 y 2121 de 2021, Ley 2114 de 2021, Ley 1010 de 2006, Resolución 1843 de 2025 y Decreto 1072 de 2015) sin detenerse en cada una; cada tema se desarrollará en su momento."},
+
+/* ---------- 02 RELACIONES LABORALES ---------- */
+{id:"contratos", m:"relaciones", t:"Modalidades de contratación y período de prueba", s:5,
+ refs:["Arts. 2 a 12 RIT","Art. 47 CST","Arts. 76 a 80 CST"],
+ b:[
+  {t:"cards", items:[
+   {i:"checkc", h:"Término indefinido", tag:"Regla general", x:"Regla general (art. 47 CST, Ley 2466 de 2025). El trabajador puede renunciar con preaviso de 30 días calendario; su omisión no genera sanción."},
+   {i:"clock", h:"Término fijo", x:"Siempre por escrito y hasta por 4 años. Si es inferior a un año, tras la cuarta prórroga se renueva por un año. Sin preaviso de 30 días, se prorroga automáticamente."},
+   {i:"tool", h:"Obra o labor", x:"Por escrito, con descripción precisa de la labor. Si el trabajador continúa tras terminar la obra, el contrato se entiende indefinido desde el inicio."}
+  ]},
+  {t:"cols", items:[
+   {i:"search", h:"Período de prueba (arts. 76 a 80 CST)", x:"Debe pactarse por escrito; máximo 2 meses (o la quinta parte en contratos fijos inferiores a un año). Cualquiera de las partes puede terminar el contrato sin preaviso, con pleno derecho a prestaciones sociales. No es válido en contratos sucesivos."},
+   {i:"chart", h:"Derechos proporcionales", x:"En contratos fijos y por obra, vacaciones y prestaciones se pagan en proporción al tiempo servido (art. 5 del RIT)."}
+  ]},
+  {t:"callout", k:"info", i:"shield", x:"En la admisión no se exigen prueba de embarazo, examen de VIH ni libreta militar (art. 6, parágrafo, del RIT)."}
+ ],
+ n:"Artículos 2 a 12 del RIT. Enfatizar que la Ley 2466 de 2025 invirtió la regla: la contratación indefinida es la general. Mencionar que en la admisión no se exigen prueba de embarazo, examen de VIH ni libreta militar (art. 6, parágrafo)."},
+
+{id:"jornada", m:"relaciones", t:"Jornada de trabajo y puntualidad", s:6,
+ refs:["Arts. 28 y 29 RIT","Ley 2101 de 2021","Art. 167 CST"],
+ b:[
+  {t:"stats", items:[{n:"42", u:"horas", h:"Máximo semanal", x:"Vigente desde el 15 de julio de 2026 (Ley 2101 de 2021; art. 28, parágrafo 3, del RIT). La reducción no afecta el salario ni las prestaciones."},{n:"5", u:"min", h:"Antes de la hora", x:"La jornada comienza cuando estás en tu puesto, con la ropa de trabajo puesta y listo para iniciar (art. 28, parágrafo 1)."},{n:"24", u:"horas", h:"Aviso de cambio de horario", x:"Por necesidades del servicio, sin desmejorar al trabajador (art. 28)."}]},
+  {t:"cols", items:[
+   {i:"sliders", h:"Horarios fijados por la empresa", x:"Las horas de entrada y salida son las que la empresa determina y comunica para cada área y cargo, dentro del límite legal. Consulta tu horario con Gestión Humana."},
+   {i:"checkc", h:"La puntualidad es una obligación", x:"El retardo sin excusa suficiente es falta disciplinaria (faltas 1 y 2)."}
+  ]},
+  {t:"list", h:"Además", i:"clock", items:[
+   "Jornada flexible: de común acuerdo, entre 4 y 9 horas diarias, sin recargo si no se supera el límite semanal (art. 29).",
+   "Descansos: los períodos de descanso fijados por la empresa no se computan como jornada (art. 167 CST)."
+  ]}
+ ],
+ n:"Artículos 28 y 29 del RIT. No detallar horas concretas en la exposición: remitir a los horarios comunicados por Gestión Humana para cada área. El mensaje central es doble: el tope legal de 42 horas semanales y la puntualidad como deber cuyo incumplimiento abre la escala disciplinaria."},
+
+{id:"suplementario", m:"relaciones", t:"Trabajo suplementario y trabajo nocturno", s:7,
+ refs:["Arts. 44 a 48 RIT","Arts. 160 y 168 CST"],
+ b:[
+  {t:"stats", items:[
+   {n:"35%", h:"Recargo nocturno ordinario", x:"Entre 7:00 p. m. y 6:00 a. m. (art. 160 CST, Ley 2466 de 2025)."},
+   {n:"25%", h:"Hora extra diurna", x:"Sobre el valor de la hora ordinaria diurna (art. 168 CST)."},
+   {n:"75%", h:"Hora extra nocturna", x:"Sobre el valor de la hora ordinaria diurna (art. 168 CST)."}
+  ]},
+  {t:"cols", items:[
+   {i:"warn", h:"Límites legales", x:"Máximo 2 horas extra diarias y 12 semanales. Si la jornada diaria se amplía a 10 horas por acuerdo, ese día no puede haber horas extra (art. 45 del RIT)."},
+   {i:"checkc", h:"Autorización y reporte", x:"El trabajo extra requiere autorización previa del supervisor inmediato y reporte al momento de su ocurrencia, salvo urgencia justificada. Se paga en el período de pago siguiente (art. 48)."}
+  ]},
+  {t:"callout", k:"gold", i:"warn", x:"Si no hubo autorización o registro, la empresa igual paga las horas efectivamente laboradas (art. 45), pero puede configurarse falta disciplinaria por desatender instrucciones. Siempre pide autorización."},
+  {t:"tool", h:"Calcula tus horas extra y recargos", to:"recargos"}
+ ],
+ n:"Artículos 44 a 48 del RIT. Precisar que la falta de autorización o registro no exonera a la empresa del pago de las horas efectivamente laboradas (art. 45), pero sí puede configurar falta disciplinaria por desatender instrucciones. Por eso: siempre pedir autorización."},
+
+{id:"dominical", m:"relaciones", t:"Descanso dominical, festivos y su remuneración", s:8,
+ refs:["Arts. 49 a 52 RIT","Art. 179 CST","Ley 51 de 1983"],
+ b:[
+  {t:"p", x:"Domingos y festivos son de descanso obligatorio remunerado. El domingo se paga siempre que no se haya faltado sin justa causa ningún día de la semana (art. 49)."},
+  {t:"table", h:"Recargo dominical y festivo: implementación gradual", head:["Desde","Recargo"], rows:[["1 de julio de 2025","80%"],["1 de julio de 2026 (vigente)","90%"],["1 de julio de 2027","100%"]], cur:1},
+  {t:"cols", items:[
+   {i:"chart", h:"Cómo se paga", x:"El trabajo en descanso obligatorio se remunera con recargo sobre el salario ordinario, en proporción a las horas laboradas (art. 179 CST, Ley 2466 de 2025)."},
+   {i:"cal", h:"Ocasional y habitual", x:"Hasta 2 días de descanso laborados al mes es ocasional; 3 o más es habitual y da derecho a descanso compensatorio remunerado, además del pago en dinero (arts. 51 y 52)."}
+  ]},
+  {t:"callout", k:"info", i:"home", x:"Las partes pueden pactar por escrito un día de descanso distinto al domingo; si no lo hacen, se presume el domingo (art. 51, parágrafo 2). Los festivos que no caen en lunes se trasladan al lunes siguiente (Ley 51 de 1983)."}
+ ],
+ n:"Artículos 49 a 52 del RIT. Los festivos que no caen en lunes se trasladan al lunes siguiente (Ley 51 de 1983). Hoy el recargo aplicable es del 90 por ciento."},
+
+{id:"vacaciones", m:"relaciones", t:"Vacaciones remuneradas", s:9,
+ refs:["Arts. 53 a 57 RIT","Arts. 186 a 190 CST"],
+ b:[
+  {t:"stats", items:[
+   {n:"15", u:"días hábiles", h:"Por cada año de servicios", x:"Art. 186 CST."},
+   {n:"15", u:"días", h:"De aviso", x:"La empresa informa la fecha con esa anticipación (art. 187 CST)."},
+   {n:"6", u:"días mínimos", h:"Se disfrutan cada año", x:"No son acumulables (art. 190 CST)."},
+   {n:"2", u:"años", h:"De acumulación", x:"Hasta 4 para personal técnico, de confianza o de manejo."}
+  ]},
+  {t:"cols", items:[{i:"users", h:"¿Quién decide la época de las vacaciones?", x:"La fecha puede concertarse entre la empresa y el trabajador, o solicitarla este último; su concesión está siempre subordinada a las necesidades del servicio y a la efectividad del descanso. Si no hay acuerdo, la decisión final corresponde al empleador, quien debe señalarla a más tardar dentro del año siguiente y comunicarla con 15 días de anticipación (art. 187 CST; art. 54 del RIT)."}]},
+  {t:"list", h:"Tenga en cuenta", i:"book", items:[
+   "Compensación en dinero: prohibida en vigencia del contrato, salvo autorización del Ministerio hasta por la mitad; al terminar el contrato se compensan por año cumplido y proporcionalmente por fracción (art. 56).",
+   "Interrupción justificada: el trabajador conserva el derecho a reanudarlas (art. 188 CST; art. 55 del RIT).",
+   "Solicítalas con suficiente antelación a Gestión Humana."
+  ]},
+  {t:"tool", h:"Calcula tus vacaciones proporcionales", to:"prestaciones"}
+ ],
+ n:"Artículos 53 a 57 del RIT. Insistir en que la solicitud del trabajador se atiende de buena fe, pero la facultad de fijar la época es del empleador en función del servicio; por ello conviene solicitarlas con antelación suficiente a Gestión Humana."},
+
+{id:"licencias-1", m:"relaciones", t:"Licencias remuneradas (I): deberes cívicos, familia y salud", s:10,
+ refs:["Art. 57-6 CST","Ley 2466 de 2025, art. 15","Arts. 58 a 63 RIT"],
+ b:[
+  {t:"cards", items:[
+   {i:"checkc", h:"Jurado de votación", tag:"Un día", x:"De descanso remunerado dentro de los 45 días siguientes a la elección, para quien ejerce funciones en mesa."},
+   {i:"star", h:"Ejercicio del sufragio", tag:"Medio día", x:"De descanso remunerado en el mes siguiente a la votación, con el certificado electoral (Ley 403 de 1997)."},
+   {i:"home", h:"Grave calamidad doméstica", x:"Suceso personal o familiar grave, debidamente comprobado. Aviso el mismo día o al siguiente."},
+   {i:"activity", h:"Citas médicas", x:"Urgencias o citas programadas con especialista. Informar previamente y presentar la certificación. Incluye las atenciones por endometriosis (Ley 2338 de 2023)."}
+  ]},
+  {t:"callout", k:"info", i:"bolt", x:"Todas estas licencias son remuneradas (art. 57-6 CST, modificado por el art. 15 de la Ley 2466 de 2025; Sentencia C-930 de 2009; arts. 58 a 63 del RIT). Debe informarse y justificarse con antelación, salvo urgencia comprobada."}
+ ],
+ n:"Primera de dos diapositivas sobre licencias remuneradas. La licencia para citas médicas incluye expresamente las atenciones por endometriosis (Ley 2338 de 2023). La calamidad doméstica se desarrolla con más detalle dos diapositivas adelante."},
+
+{id:"licencias-2", m:"relaciones", t:"Licencias remuneradas (II): educación, justicia, movilidad y sindicato", s:11,
+ refs:["Arts. 62 y 63 RIT","Art. 57-6 CST"],
+ b:[
+  {t:"cards", items:[
+   {i:"cap", h:"Compromisos escolares", x:"Para asistir como acudiente a citaciones obligatorias de la institución educativa de los hijos."},
+   {i:"book", h:"Citaciones judiciales o administrativas", x:"Previa presentación de la citación expedida por la autoridad competente."},
+   {i:"globe", h:"Uso de la bicicleta", tag:"Un día cada 6 meses", x:"Para quien certifique la bicicleta como medio habitual de transporte al trabajo."},
+   {i:"users", h:"Comisiones sindicales", tag:"Según la actividad", x:"Para asistir a reuniones o actividades propias de la organización sindical."}
+  ]},
+  {t:"callout", k:"ok", i:"send", x:"Cómo solicitarlas: informa al jefe inmediato con la debida antelación y entrega el soporte (certificado, citación o constancia) a Gestión Humana (art. 63)."},
+  {t:"callout", k:"warn", i:"warn", x:"Utilizar más tiempo del estrictamente necesario para la licencia o el permiso constituye falta disciplinaria (falta 10)."}
+ ],
+ n:"Segunda diapositiva de licencias. Recordar que el listado del artículo 62 del RIT reproduce el numeral 6 del artículo 57 del CST tras la Ley 2466 de 2025. Insistir en el soporte documental como condición para su reconocimiento."},
+
+{id:"luto-parental", m:"relaciones", t:"Licencia por luto, calamidad doméstica y licencia parental", s:12,
+ refs:["Arts. 59, 60, 64 y 65 RIT","Ley 2114 de 2021","Sentencia C-930 de 2009"],
+ b:[
+  {t:"cards", items:[
+   {i:"users", h:"Licencia por luto", tag:"5 días hábiles", x:"Remunerados, por fallecimiento del cónyuge o compañero permanente, o de familiar hasta el segundo grado de consanguinidad, primero de afinidad y primero civil. Se acredita dentro de los 30 días siguientes con certificado de defunción y prueba del parentesco (art. 60)."},
+   {i:"warn", h:"Calamidad doméstica", x:"Suceso familiar grave que afecta el normal desarrollo de las actividades del trabajador. Es remunerada (Sentencia C-930 de 2009). Avisa al jefe inmediato el mismo día o a más tardar al día siguiente. La empresa fija los días bajo criterios de razonabilidad y proporcionalidad (art. 59)."},
+   {i:"home", h:"Licencia parental (Ley 2114 de 2021)", x:"Compartida: los padres distribuyen las últimas 6 semanas de la licencia de maternidad; la madre conserva las primeras 12. Flexible: las últimas 6 semanas se cambian por 12 semanas de medio tiempo con salario completo. Ambas requieren aviso al empleador con 30 días de anticipación (arts. 64 y 65)."}
+  ]},
+  {t:"callout", k:"warn", i:"warn", x:"Suministrar información no veraz sobre permisos, citas médicas o calamidades es falta sancionable con suspensión hasta por 8 días y, en caso de reincidencia, falta grave (falta 12)."},
+  {t:"tool", h:"Calcula hasta cuándo va tu licencia por luto", to:"plazos"}
+ ],
+ n:"Artículos 59, 60, 64 y 65 del RIT. Insistir en el deber de aviso oportuno: la oportunidad del aviso de la calamidad puede ser anterior o posterior al hecho, pero debe darse."},
+
+{id:"salario", m:"relaciones", t:"Salario, pago, deducciones y libranza", s:13,
+ refs:["Arts. 66 a 69 y 104 a 107 RIT","Arts. 132, 149 y 150 CST","Ley 1527 de 2012"],
+ b:[
+  {t:"stats", items:[{n:"15", u:"y último", h:"Días de pago", x:"Pago quincenal. Si la fecha coincide con día no laborable, se paga el día hábil anterior (art. 68)."},{n:"50%", h:"Mínimo que recibes", x:"Del salario neto, después de los descuentos de ley y de libranza. La empresa verifica este límite antes de aplicar cualquier descuento (arts. 105 y 106)."}]},
+  {t:"cards", items:[
+   {i:"lock", h:"Deducciones y retenciones", x:"Ninguna suma se descuenta sin autorización escrita del trabajador para cada caso o sin mandamiento judicial, salvo los descuentos legales (arts. 149 y 150 CST; art. 69 del RIT)."},
+   {i:"db", h:"Libranza (Ley 1527 de 2012)", x:"Requiere autorización expresa e irrevocable del trabajador y convenio entre la empresa y la entidad operadora."},
+   {i:"chart", h:"Salario integral", x:"Solo procede por escrito cuando el salario ordinario supera 10 salarios mínimos; nunca incluye las vacaciones (art. 132 CST; art. 66 del RIT)."}
+  ]},
+  {t:"callout", k:"info", i:"shield", x:"El empleador tiene prohibido obligar a los trabajadores a comprar en almacenes propios o recibir dinero como gratificación por la admisión (art. 88)."},
+  {t:"tool", h:"Verifica el límite de tu libranza", to:"libranza"}
+ ],
+ n:"Artículos 66 a 69 y 104 a 107 del RIT. Precisar que el empleador tiene prohibido obligar a los trabajadores a comprar en almacenes propios o recibir dinero como gratificación por la admisión (art. 88)."},
+
+{id:"obligaciones", m:"relaciones", t:"Obligaciones especiales del trabajador y del empleador", s:18,
+ refs:["Arts. 57 y 58 CST","Arts. 82, 86 y 87 RIT"],
+ b:[
+  {t:"cols", items:[
+   {i:"shield", h:"La empresa debe (art. 57 CST; art. 86 del RIT)", list:[
+    "Suministrar instrumentos adecuados y elementos de protección",
+    "Prestar de inmediato los primeros auxilios en caso de accidente o enfermedad",
+    "Pagar la remuneración en las condiciones y períodos convenidos",
+    "Guardar absoluto respeto a la dignidad, creencias y sentimientos del trabajador",
+    "Conceder las licencias previstas en la ley",
+    "Expedir certificación de servicios al retiro",
+    "Garantizar el derecho a la desconexión laboral"]},
+   {i:"users", h:"El trabajador debe (art. 58 CST; arts. 82 y 87 del RIT)", list:[
+    "Cumplir el Reglamento y mantener el orden y el respeto a la ley",
+    "Realizar personalmente la labor y acatar órdenes e instrucciones relacionadas con el trabajo",
+    "Guardar reserva sobre la información de la empresa, sus clientes y proveedores",
+    "Conservar y restituir en buen estado herramientas, equipos, vehículos y mercancía",
+    "Respetar a superiores, compañeros, clientes y proveedores; ser verídico en todo caso",
+    "Permanecer en el sitio de trabajo durante la jornada",
+    "Observar las medidas preventivas de accidentes y las normas del SG-SST",
+    "Registrar y actualizar su domicilio y datos de contacto",
+    "Colaborar en casos de siniestro o riesgo inminente"]}
+  ]},
+  {t:"callout", k:"info", i:"link", x:"El Reglamento obliga tanto a la empresa como a sus trabajadores. La violación grave de estas obligaciones es justa causa de terminación (art. 62, numeral 6, CST)."}
+ ],
+ n:"Capítulos XX y XXIII del RIT. La violación grave de estas obligaciones es justa causa de terminación (art. 62, numeral 6, CST). Resaltar la reciprocidad: el Reglamento obliga tanto a la empresa como a sus trabajadores."},
+
+{id:"prohibiciones", m:"relaciones", t:"Prohibiciones especiales a los trabajadores", s:19,
+ refs:["Art. 60 CST","Art. 89 RIT"],
+ b:[
+  {t:"cards", items:[
+   {i:"lock", h:"Sustraer bienes", x:"Retirar útiles, materias primas, mercancía o productos sin permiso."},
+   {i:"warn", h:"Embriaguez o sustancias", x:"Presentarse bajo efectos de alcohol, narcóticos o drogas enervantes."},
+   {i:"warn", h:"Armas", x:"Conservar armas en el sitio de trabajo, salvo celadores con autorización legal."},
+   {i:"clock", h:"Inasistencia", x:"Faltar al trabajo sin justa causa o sin permiso del empleador."},
+   {i:"activity", h:"Disminuir el ritmo", x:"Reducir intencionalmente el rendimiento o promover suspensiones intempestivas."},
+   {i:"star", h:"Rifas y colectas", x:"Hacer colectas, rifas, suscripciones o propaganda en los lugares de trabajo."},
+   {i:"users", h:"Coartar libertades", x:"Limitar la libertad de trabajar o de afiliarse o no a un sindicato."},
+   {i:"tool", h:"Uso indebido de herramientas", x:"Emplear útiles, equipos o vehículos en fines distintos del trabajo contratado."},
+   {i:"chat", h:"Acoso laboral", x:"Realizar acoso laboral en cualquiera de sus modalidades (Ley 1010 de 2006)."}
+  ]},
+  {t:"callout", k:"warn", i:"warn", x:"Fundamento: artículo 60 del CST y artículo 89 del RIT. La violación grave de estas prohibiciones constituye justa causa de terminación del contrato (art. 62, numeral 6, CST)."}
+ ],
+ n:"Artículo 89 del RIT. Puente hacia el bloque disciplinario: estas prohibiciones son el fundamento legal de muchas de las faltas del cuadro que veremos a continuación."},
+
+/* ---------- 03 CESANTÍAS ---------- */
+{id:"cesantias-que", m:"cesantias", t:"Las cesantías: qué son y cuándo se pagan", s:14,
+ refs:["Art. 249 CST","Art. 99 Ley 50 de 1990","Ley 52 de 1975"],
+ b:[
+  {t:"lead", x:"Un mes de salario por cada año de servicios y proporcionalmente por fracción de año (art. 249 CST). Son un ahorro forzoso del trabajador que la ley protege para amparar la cesación del empleo y dos destinaciones especiales: vivienda y educación."},
+  {t:"stats", items:[
+   {n:"31 ene", h:"Intereses a las cesantías", x:"Fecha límite para pagar directamente al trabajador los intereses: 12% anual sobre el saldo a 31 de diciembre (Ley 52 de 1975)."},
+   {n:"14 feb", h:"Consignación en el fondo", x:"Fecha límite para consignar las cesantías del año anterior en el fondo elegido por el trabajador (art. 99, Ley 50 de 1990). La mora causa un día de salario por cada día de retardo."}
+  ]},
+  {t:"callout", k:"info", i:"db", x:"El capital va al fondo; los intereses se pagan a ti directamente. Tú eliges libremente tu fondo de cesantías y puedes trasladarte entre fondos. El saldo genera rendimientos mientras permanece consignado."},
+  {t:"tool", h:"Calcula tus cesantías e intereses", to:"prestaciones"}
+ ],
+ n:"Primera de tres diapositivas sobre cesantías. Distinguir el capital (que va al fondo) de los intereses (que se pagan al trabajador). Anticipar que las dos siguientes explican cuándo y cómo pueden retirarse."},
+
+{id:"cesantias-vivienda", m:"cesantias", t:"Retiro parcial de cesantías (I): para vivienda", s:15,
+ refs:["Art. 102 Ley 50 de 1990","Art. 2.2.1.3.2 Decreto 1072 de 2015"],
+ b:[
+  {t:"cards", items:[
+   {i:"checkc", h:"¿Para qué se puede retirar?", x:"Compra de vivienda o lote · construcción · ampliación, reparación o mejora · pago de la hipoteca o de impuestos que graven el inmueble."},
+   {i:"key", h:"Requisito esencial", x:"El inmueble debe figurar en el certificado de tradición y libertad (máximo 30 días de expedido) a nombre del trabajador, de su cónyuge o de su compañero(a) permanente."},
+   {i:"book", h:"Soportes según el caso", x:"Promesa de compraventa · presupuesto o cotizaciones de obra · extracto del crédito hipotecario · recibo del impuesto · copia de la cédula."}
+  ]},
+  {t:"callout", k:"warn", i:"home", x:"No procede para la vivienda de padres, hijos u otros familiares. Cada fondo puede exigir documentos adicionales."}
+ ],
+ n:"Subrayar la titularidad del inmueble: no procede para vivienda de padres, hijos u otros familiares. El Decreto 2076 de 1967 habla de cónyuge; la extensión al compañero(a) permanente deriva de la igualdad constitucional entre matrimonio y unión marital y es la práctica uniforme de los fondos. Cada fondo puede exigir documentos adicionales."},
+
+{id:"cesantias-educacion", m:"cesantias", t:"Retiro parcial de cesantías (II): para educación", s:16,
+ refs:["Art. 102 Ley 50 de 1990","Ley 1064 de 2006","Ley 1809 de 2016","Art. 254 CST"],
+ b:[
+  {t:"cards", items:[
+   {i:"checkc", h:"¿Para qué se puede retirar?", x:"Matrículas de educación superior o de educación para el trabajo del trabajador, su cónyuge o compañero(a) permanente y sus hijos · pago de créditos educativos · ahorro programado o seguro educativo para los hijos."},
+   {i:"key", h:"Requisito esencial", x:"Recibo o liquidación de matrícula vigente de una institución reconocida, o estado de cuenta del crédito educativo; registro civil cuando se trate de los hijos."},
+   {i:"send", h:"¿A quién le pagan?", x:"El fondo gira el dinero directamente a la institución educativa o a la entidad de crédito, no al trabajador."}
+  ]},
+  {t:"callout", k:"warn", i:"warn", x:"Fuera de vivienda y educación las cesantías no pueden retirarse ni pagarse directamente por el empleador; el pago irregular no libera a la empresa (art. 254 CST)."}
+ ],
+ n:"La educación para el trabajo y el desarrollo humano quedó cubierta por la Ley 1064 de 2006; la Ley 1809 de 2016 añadió el ahorro programado y los seguros educativos para los hijos. Recordar que el giro es directo a la institución."},
+
+{id:"cesantias-retiro", m:"cesantias", t:"Retiro definitivo y procedimiento ante el fondo", s:17,
+ refs:["Arts. 2.2.1.3.15 a 2.2.1.3.18 Decreto 1072 de 2015","Decreto 1562 de 2019"],
+ b:[
+  {t:"list", h:"Causales de retiro definitivo", i:"key", items:[
+   "Terminación del contrato, cualquiera que sea la causa: carta de terminación, aceptación de renuncia o liquidación",
+   "Sustitución de empleador: acuerdo escrito con el antiguo o el nuevo empleador",
+   "Paso a salario integral: certificación del empleador",
+   "Servicio militar obligatorio: orden de incorporación",
+   "Muerte del trabajador: la reclaman los beneficiarios con registro civil de defunción y prueba del parentesco"
+  ]},
+  {t:"steps", h:"Cómo se tramita cualquier retiro", items:[
+   {h:"Radica la solicitud", x:"El trabajador radica la solicitud con los soportes en Gestión Humana."},
+   {h:"La empresa verifica", x:"La empresa verifica los requisitos y expide la carta de autorización dirigida al fondo (art. 2.2.1.3.3, parágrafo 1)."},
+   {h:"Solicitud al fondo", x:"El trabajador presenta la solicitud al fondo, de forma presencial o virtual (Decreto 1562 de 2019)."},
+   {h:"Pago", x:"El fondo paga dentro de los 5 días hábiles siguientes a la solicitud completa (parágrafo 2)."}
+  ]},
+  {t:"callout", k:"info", i:"checkc", x:"En el retiro por terminación del contrato no se requiere autorización del empleador: basta la prueba de la terminación. En los retiros parciales la empresa debe vigilar la correcta destinación, por eso exige los soportes antes de autorizar."}
+ ],
+ n:"Cierre del tema de cesantías. La empresa está obligada a verificar y vigilar la correcta destinación de los retiros parciales; por ello exige los soportes antes de autorizar. En el retiro por terminación del contrato no se requiere autorización del empleador, basta la prueba de la terminación."},
+
+/* ---------- 04 DISCIPLINARIO ---------- */
+{id:"principios", m:"disciplinario", t:"Principios y límites de la potestad disciplinaria", s:21,
+ refs:["Arts. 90 a 92 RIT","Arts. 111 a 115 CST"],
+ b:[
+  {t:"cards", items:[
+   {i:"book", h:"Legalidad y tipicidad", x:"Solo se imponen las sanciones previstas en el Reglamento, el contrato, pactos o convenciones (art. 114 CST)."},
+   {i:"shield", h:"Dignidad", x:"Prohibidas las penas corporales y toda medida lesiva de la dignidad del trabajador (art. 111 CST)."},
+   {i:"clock", h:"Límite de la suspensión", x:"Máximo 8 días la primera vez y 2 meses en caso de reincidencia (art. 112 CST)."},
+   {i:"chart", h:"Progresividad y reincidencia", x:"Las sanciones del cuadro de 101 faltas se gradúan según gravedad, circunstancias, perjuicio y antecedentes; la reincidencia se computa en los 12 meses anteriores (art. 92)."},
+   {i:"key", h:"Competencia", x:"La comprobación de faltas y la aplicación de sanciones está reservada al Gerente General (art. 91). Los jefes de área reportan y documentan; no sancionan por sí mismos."},
+   {i:"checkc", h:"Debido proceso", x:"Ninguna sanción se impone sin agotar íntegramente el procedimiento del artículo 108; la impuesta en su contravención carece de validez (art. 92, parágrafo 2; art. 115 CST)."},
+   {i:"db", h:"Multas", x:"Solo por retardos o faltas al trabajo; no exceden la quinta parte del salario de un día y se destinan a premios para los trabajadores (art. 113 CST)."}
+  ]}
+ ],
+ n:"Artículos 90 a 92 del RIT. El cuadro de faltas y sanciones (101 conductas) hace parte del Reglamento entregado a cada trabajador; aquí basta explicar su lógica progresiva. Aclarar la aparente tensión entre el artículo 83 (faculta al Representante Legal, Administrador y Jefes de Área) y el artículo 91 (reserva al Gerente General): la decisión sancionatoria la adopta el Gerente General; los demás niveles instruyen, reportan y documentan."},
+
+{id:"faltas-graves", m:"disciplinario", t:"Faltas graves: conductas que habilitan la terminación con justa causa", s:22,
+ refs:["Arts. 92 y 93 RIT","Art. 62 num. 6 CST","Resolución 2674 de 2013"],
+ b:[
+  {t:"cols", items:[
+   {i:"warn", h:"Seguridad y conducta", list:[
+    "Presentarse bajo efectos de alcohol o sustancias psicoactivas (40)",
+    "Conducir vehículos de la empresa sin licencia vigente o bajo efectos de alcohol (71 y 72)",
+    "Transportar alimentos junto con sustancias tóxicas (68)",
+    "Revelar información reservada o entregar la base de clientes a terceros (97 y 99)"]},
+   {i:"db", h:"Mercancía e inventarios", list:[
+    "Retirar mercancía, insumos o envases sin autorización escrita (52)",
+    "Consumir, obsequiar o apropiarse de productos, cualquiera que sea su valor (53)",
+    "Alterar fechas de vencimiento, lotes o precios (60)",
+    "Manipular los registros del sistema de inventarios (61)"]},
+   {i:"chart", h:"Recaudo y facturación", list:[
+    "No consignar la totalidad de los dineros recaudados (85)",
+    "Retener dineros o destinarlos a fines propios, aunque luego se restituyan (86)",
+    "Expedir recibos o facturas adulterados (89)",
+    "Recibir dádivas o comisiones de proveedores o clientes (63)"]}
+  ]},
+  {t:"callout", k:"warn", i:"book", x:"La calificación de una conducta como falta grave habilita la terminación del contrato con justa causa (art. 62, numeral 6, literal a, CST), previa observancia del debido proceso. A estas se suman las causales del artículo 93 del RIT. Los números entre paréntesis corresponden al cuadro de faltas del artículo 92."},
+  {t:"callout", k:"gold", i:"activity", x:"Distrileco es una distribuidora de alimentos: las faltas sobre manipulación, cadena de frío y producto vencido también comprometen la responsabilidad sanitaria (Resolución 2674 de 2013)."}
+ ],
+ n:"Artículos 92 (parágrafos 3 y 4) y 93 del RIT. Las faltas sobre mercancía, recaudo, facturación y vehículos se predican de todo trabajador que tenga bienes o dineros a su disposición. Enfatizar que la empresa es una distribuidora de alimentos: las faltas sobre manipulación, cadena de frío y producto vencido también comprometen la responsabilidad sanitaria frente a la Resolución 2674 de 2013."},
+
+{id:"procedimiento", m:"disciplinario", t:"El procedimiento disciplinario en cuatro etapas (art. 108)", s:23,
+ refs:["Art. 108 RIT","Art. 115 CST","Art. 7 Ley 2466 de 2025","Sentencia C-593 de 2014"],
+ b:[
+  {t:"steps", items:[
+   {h:"Apertura y formulación de cargos", x:"Comunicación escrita con hechos, conductas, normas vulneradas y copia de las pruebas."},
+   {h:"Descargos y defensa", x:"Mínimo 5 días hábiles para controvertir pruebas y aportar las propias, por escrito o en diligencia verbal."},
+   {h:"Decisión motivada", x:"Pronunciamiento escrito que analiza hechos, pruebas y argumentos; sanción proporcional, notificada formalmente."},
+   {h:"Recurso de reposición", x:"5 días hábiles para interponerlo; se resuelve en máximo 15 días hábiles y suspende los efectos de la sanción."}
+  ]},
+  {t:"callout", k:"warn", i:"warn", x:"Todas las actuaciones quedan documentadas en el expediente laboral. La sanción impuesta sin agotar estas etapas carece de validez (art. 108, parágrafo 1; art. 115 CST, modificado por el art. 7 de la Ley 2466 de 2025)."},
+  {t:"tool", h:"Calcula los plazos de descargos y reposición", to:"plazos"}
+ ],
+ n:"Diapositiva central. Presentar el flujo completo antes de detallar cada etapa. Recordar que este procedimiento recoge los elementos mínimos fijados por la Corte Constitucional en la Sentencia C-593 de 2014 y que la Ley 2466 de 2025 los elevó a rango legal en el artículo 115 del CST."},
+
+/* ---------- 05 SST ---------- */
+{id:"at-el", m:"sst", t:"¿Qué es un accidente de trabajo y qué es una enfermedad laboral?", s:25,
+ refs:["Arts. 3 y 4 Ley 1562 de 2012"],
+ b:[
+  {t:"cols", items:[
+   {i:"bolt", h:"Accidente de trabajo (art. 3, Ley 1562 de 2012)", x:"Todo suceso repentino que sobrevenga por causa o con ocasión del trabajo y que produzca una lesión orgánica, una perturbación funcional o psiquiátrica, una invalidez o la muerte.", list:[
+    "Incluye el ocurrido ejecutando órdenes del empleador, aun fuera del lugar y horas de trabajo",
+    "Durante el traslado en transporte suministrado por el empleador",
+    "En actividades recreativas o deportivas por cuenta o en representación de la empresa"]},
+   {i:"activity", h:"Enfermedad laboral (art. 4, Ley 1562 de 2012)", x:"La contraída como resultado de la exposición a factores de riesgo inherentes a la actividad laboral o al medio en que el trabajador se ha visto obligado a trabajar.", list:[
+    "El Gobierno fija la tabla de enfermedades laborales; las no incluidas pueden reconocerse si se prueba la relación de causalidad",
+    "Su calificación en primera oportunidad corresponde a la EPS o la ARL y, en controversia, a las Juntas de Calificación de Invalidez",
+    "Ejemplos típicos en distribución: lesiones osteomusculares por manipulación de cargas y posturas repetitivas"]}
+  ]},
+  {t:"callout", k:"info", i:"bolt", x:"El accidente es súbito; la enfermedad es progresiva. El accidente en el trayecto casa-trabajo solo se cubre si el transporte lo suministra la empresa. En ambos casos las prestaciones asistenciales y económicas las asume la ARL."}
+ ],
+ n:"Diferenciar: el accidente es súbito; la enfermedad es progresiva. El accidente de trabajo en el trayecto casa-trabajo solo se cubre si el transporte lo suministra la empresa. En ambos casos las prestaciones asistenciales y económicas las asume la ARL."},
+
+{id:"accidente", m:"sst", t:"Procedimiento ante un accidente de trabajo", s:26,
+ refs:["Arts. 78 a 81 RIT","Art. 62 Decreto 1295 de 1994","Resolución 1401 de 2007","Art. 2.2.4.1.7 Decreto 1072 de 2015"],
+ b:[
+  {t:"steps", items:[
+   {h:"Aviso inmediato", x:"El trabajador o un compañero informa de inmediato al jefe inmediato (art. 80). No reportarlo es falta disciplinaria (falta 37)."},
+   {h:"Primeros auxilios y remisión", x:"El jefe ordena los primeros auxilios (botiquín, art. 78) y la remisión a la IPS de la red de la ARL o a urgencias (art. 79)."},
+   {h:"Reporte a la ARL y a la EPS", x:"La empresa diligencia el FURAT dentro de los 2 días hábiles siguientes (art. 62, Decreto 1295 de 1994)."},
+   {h:"Investigación", x:"Equipo investigador con participación del COPASST, dentro de los 15 días siguientes (Resolución 1401 de 2007)."},
+   {h:"Medidas correctivas", x:"Plan de acción para evitar la repetición y seguimiento dentro del SG-SST (arts. 80 y 81)."}
+  ]},
+  {t:"callout", k:"warn", i:"warn", x:"Si el accidente es grave o mortal: además del FURAT, la empresa lo reporta a la Dirección Territorial del Ministerio del Trabajo dentro de los 2 días hábiles (art. 2.2.4.1.7 del Decreto 1072 de 2015)."},
+  {t:"callout", k:"ok", i:"shield", x:"El trabajador conserva la atención médica, las incapacidades y demás prestaciones de la ARL aunque el reporte sea extemporáneo; la extemporaneidad genera sanciones para la empresa, no pérdida de derechos."},
+  {t:"callout", k:"gold", i:"bolt", x:"Conductores y auxiliares de ruta: el accidente en la vía durante la jornada es accidente de trabajo y debe avisarse de inmediato, incluso si parece leve."},
+  {t:"tool", h:"Calcula la fecha límite del FURAT", to:"plazos"}
+ ],
+ n:"Artículos 78 a 81 del RIT. Insistir en el paso 1: sin aviso inmediato no hay reporte oportuno. Para conductores y auxiliares de ruta: el accidente en la vía durante la jornada es accidente de trabajo y debe avisarse de inmediato, incluso si parece leve. El FURAT lo diligencia Gestión Humana con la información del jefe inmediato."},
+
+{id:"incapacidades", m:"sst", t:"Enfermedad laboral e incapacidades: la ruta y los deberes del trabajador", s:27,
+ refs:["Faltas 9, 38 y 69 RIT","Resolución 2674 de 2013"],
+ b:[
+  {t:"cols", items:[{i:"clock", h:"Incapacidades médicas", x:"Presenta la incapacidad dentro de los 3 días siguientes a su expedición e informa de inmediato la ausencia al jefe inmediato. Solo se admiten las expedidas por el Sistema General de Seguridad Social (falta 9)."}]},
+  {t:"steps", h:"Ruta ante una posible enfermedad laboral", items:[
+   {h:"Consulta y avisa", x:"Consultar al médico de la EPS e informar al jefe inmediato y a Gestión Humana los síntomas asociados al trabajo."},
+   {h:"Calificación del origen", x:"La EPS o la ARL califican en primera oportunidad el origen (común o laboral)."},
+   {h:"Juntas de calificación", x:"Si hay desacuerdo, el caso pasa a la Junta Regional y, en apelación, a la Junta Nacional de Calificación de Invalidez."},
+   {h:"Atención por la ARL", x:"Calificado el origen laboral, la ARL asume la atención y las prestaciones económicas."},
+   {h:"Recomendaciones y reubicación", x:"La empresa aplica las recomendaciones médico-laborales y reubica cuando procede."}
+  ]},
+  {t:"callout", k:"warn", i:"checkc", x:"Desatender las recomendaciones médico-laborales o negarse a los exámenes ocupacionales es falta sancionable con suspensión hasta por 8 días y, en reincidencia, falta grave (falta 38)."},
+  {t:"callout", k:"gold", i:"warn", x:"Quien manipule alimentos padeciendo enfermedad infectocontagiosa, gastrointestinal o dermatológica debe informarlo al jefe inmediato (falta 69; Resolución 2674 de 2013)."},
+  {t:"more", h:"¿Quién paga la incapacidad?", x:"La incapacidad de origen común la paga la EPS desde el día 3; la de origen laboral la paga la ARL desde el día siguiente. El trabajador incapacitado o con recomendaciones médicas goza de protección reforzada frente al despido."}
+ ],
+ n:"Recordar que el trabajador incapacitado o con recomendaciones goza de protección reforzada frente al despido, por lo que la empresa debe gestionar estas situaciones con asesoría jurídica. Mencionar que la incapacidad por origen común la paga la EPS desde el día 3 y la de origen laboral la ARL desde el día siguiente."},
+
+{id:"examenes", m:"sst", t:"Exámenes médicos ocupacionales y deberes de prevención", s:28,
+ refs:["Capítulo XVIII RIT (arts. 71 a 76)","Resolución 1843 de 2025"],
+ b:[
+  {t:"cards", items:[
+   {i:"play", h:"De ingreso", x:"Determinan la aptitud para el cargo. Costo a cargo del empleador (art. 71)."},
+   {i:"clock", h:"Periódicos", x:"Según los factores de riesgo del cargo; frecuencia definida por el SG-SST (art. 72)."},
+   {i:"activity", h:"De reintegro", x:"Tras incapacidad superior a 30 días, para verificar la aptitud (art. 74)."},
+   {i:"send", h:"De egreso", x:"Al terminar el contrato; establece el estado de salud al retiro (art. 73)."}
+  ]},
+  {t:"cols", items:[
+   {i:"lock", h:"Confidencialidad y obligatoriedad", x:"Los resultados hacen parte de la historia clínica ocupacional y son confidenciales (art. 75). La inasistencia injustificada a los exámenes programados es falta grave (art. 76; Resolución 1843 de 2025)."},
+   {i:"tool", h:"Deberes diarios de prevención", list:[
+    "Usar correctamente los elementos de protección personal (falta 35)",
+    "Cumplir los procedimientos del SG-SST y de higiene y seguridad industrial (falta 36)",
+    "Inspección preoperacional de vehículos y reporte de fallas (falta 77)",
+    "No operar montacargas o equipos sin certificación (falta 44)"]}
+  ]},
+  {t:"callout", k:"ok", i:"shield", x:"La prevención es una obligación compartida: la empresa provee los medios y el trabajador debe usarlos."}
+ ],
+ n:"Capítulo XVIII del RIT. Cierre del bloque de SST: la prevención es una obligación compartida; la empresa provee los medios y el trabajador debe usarlos. Abrir espacio breve de preguntas."},
+
+/* ---------- 06 CONVIVENCIA ---------- */
+{id:"acoso", m:"convivencia", t:"Acoso laboral, igualdad y Comité de Convivencia", s:29,
+ refs:["Ley 1010 de 2006","Arts. 94, 97 y 99 RIT","Arts. 17 y 18 Ley 2466 de 2025"],
+ b:[
+  {t:"lead", x:"Es acoso laboral toda conducta persistente y demostrable dirigida a infundir miedo, intimidación o angustia, causar perjuicio laboral, desmotivar o inducir la renuncia (art. 2, Ley 1010 de 2006; art. 97 del RIT)."},
+  {t:"chips", h:"Modalidades", items:["Maltrato laboral","Persecución laboral","Discriminación laboral","Entorpecimiento laboral","Inequidad laboral","Desprotección laboral"]},
+  {t:"steps", h:"Procedimiento ante el Comité de Convivencia (art. 99)", items:[
+   {h:"Queja por escrito", x:"Ante el Comité de Convivencia Laboral."},
+   {h:"Versión del presunto acosador", x:"El Comité lo cita y escucha su versión."},
+   {h:"Diálogo", x:"Promueve el diálogo entre las partes para una solución efectiva."},
+   {h:"Recomendaciones", x:"Si no hay acuerdo, formula recomendaciones a la empresa. Se garantiza la confidencialidad en todo el trámite."}
+  ]},
+  {t:"callout", k:"info", i:"users", x:"Igualdad y no discriminación (art. 94; arts. 17 y 18, Ley 2466 de 2025): prohibida toda discriminación por género, orientación sexual, etnia, credo, edad, condición de salud, discapacidad, origen nacional o situación migratoria. Estas conductas son faltas graves."},
+  {t:"callout", k:"ok", i:"shield", x:"La queja de buena fe no puede generar represalias; el trabajador conserva la vía ante el Ministerio del Trabajo y el juez laboral."},
+  {t:"more", h:"¿Qué no es acoso?", x:"Una exigencia legítima de resultados o una corrección disciplinaria con debido proceso no son acoso. Sí lo es la conducta persistente dirigida a humillar o a inducir la renuncia."}
+ ],
+ n:"Capítulos XXVI y XXVIII del RIT. Aclarar la diferencia entre una exigencia legítima de resultados o una corrección disciplinaria con debido proceso, que no son acoso, y la conducta persistente dirigida a humillar o inducir la renuncia, que sí lo es."},
+
+{id:"canales", m:"convivencia", t:"¿A quién acudir? Orden jerárquico y canales de reclamo", s:30,
+ refs:["Arts. 82, 83, 95 y 96 RIT"],
+ b:[
+  {t:"org", h:"Escala jerárquica (art. 83 del RIT)", items:["Representante Legal / Gerente General","Administrador / Director Administrativo","Jefes de Área / Coordinadores","Auxiliares Administrativos","Personal Operativo / Servicios Generales"]},
+  {t:"cols", items:[
+   {i:"star", h:"Reclamos (arts. 95 y 96)", x:"Se presentan ante el superior inmediato, quien los resuelve si está en sus atribuciones; si no, los tramita ante el nivel siguiente, que debe oírlos y resolverlos en justicia y equidad. El trabajador puede asesorarse del sindicato, si lo hubiere."},
+   {i:"book", h:"Cómo presentar un reclamo eficaz", list:[
+    "Por conducto regular, de manera fundada, comedida y respetuosa (art. 82)",
+    "Por escrito cuando se trate de salarios, prestaciones, horas extra o descuentos",
+    "Con los soportes disponibles: desprendibles, turnos, comunicaciones"]}
+  ]},
+  {t:"contact"}
+ ],
+ n:"Capítulos XXI y XXVII del RIT. El conducto regular no es un obstáculo sino una garantía: permite que el reclamo quede documentado y se resuelva en el nivel competente."},
+
+{id:"compromisos", m:"convivencia", t:"Cinco compromisos para llevarse hoy", s:31,
+ refs:["Art. 113 RIT"],
+ b:[
+  {t:"commits"},
+  {t:"callout", k:"info", i:"pen", x:"Al finalizar, cada colaborador firma la constancia de recibo y socialización del Reglamento (art. 113). Puedes hacerlo en la sección Constancia de esta app."},
+  {t:"cta", h:"Firmar la constancia", to:"constancia"}
+ ],
+ n:"Cierre. Recoger las firmas en la planilla de asistencia y constancia de socialización. Recordar que el Reglamento completo queda publicado en cartelera y que Gestión Humana entregará copia a quien la solicite."}
+];
+
+var COMMITS = [
+ {i:"clock", x:"Puntualidad: en el puesto, 5 minutos antes"},
+ {i:"chat", x:"Avisar de inmediato ausencias, incapacidades y calamidades"},
+ {i:"warn", x:"Reportar todo accidente o incidente al jefe inmediato"},
+ {i:"lock", x:"Custodiar mercancía, dineros e información de la empresa"},
+ {i:"users", x:"Respeto y buen trato: cero tolerancia al acoso"}
+];
+
+var QUIZ = [
+ {q:"¿Cuál es la jornada máxima semanal vigente desde el 15 de julio de 2026?", o:["48 horas","46 horas","44 horas","42 horas"], a:3, e:"Ley 2101 de 2021 y art. 28, parágrafo 3, del RIT. La reducción no afecta el salario.", l:"jornada"},
+ {q:"¿Con cuánta anticipación debes estar en tu puesto antes de la hora de entrada?", o:["Ninguna","5 minutos","15 minutos","30 minutos"], a:1, e:"Art. 28, parágrafo 1, del RIT. La jornada empieza cuando estás listo en el puesto.", l:"jornada"},
+ {q:"¿Desde qué hora empieza el trabajo nocturno?", o:["6:00 p. m.","7:00 p. m.","9:00 p. m.","10:00 p. m."], a:1, e:"Entre 7:00 p. m. y 6:00 a. m. (art. 160 CST, modificado por la Ley 2466 de 2025).", l:"suplementario"},
+ {q:"¿Qué recargo tiene la hora extra nocturna?", o:["25%","35%","75%","100%"], a:2, e:"75% sobre el valor de la hora ordinaria diurna (art. 168 CST).", l:"suplementario"},
+ {q:"¿Cuál es el máximo de horas extra permitido?", o:["1 diaria y 6 semanales","2 diarias y 12 semanales","3 diarias y 15 semanales","No hay límite"], a:1, e:"Art. 45 del RIT. Y siempre con autorización previa del supervisor.", l:"suplementario"},
+ {q:"¿Qué recargo dominical y festivo está vigente desde el 1 de julio de 2026?", o:["75%","80%","90%","100%"], a:2, e:"Implementación gradual: 80% (2025), 90% (2026), 100% (julio de 2027).", l:"dominical"},
+ {q:"¿Cuántos días hábiles de vacaciones remuneradas da cada año de servicios?", o:["10","12","15","20"], a:2, e:"Art. 186 CST. La empresa avisa la fecha con 15 días de anticipación.", l:"vacaciones"},
+ {q:"¿Cuántos días dura la licencia por luto?", o:["3 días calendario","5 días hábiles","8 días hábiles","15 días calendario"], a:1, e:"5 días hábiles remunerados (Ley 1280 de 2009; art. 60 del RIT).", l:"luto-parental"},
+ {q:"¿Qué mínimo de tu salario neto debes recibir después de descuentos y libranzas?", o:["25%","40%","50%","70%"], a:2, e:"Ley 1527 de 2012; arts. 105 y 106 del RIT.", l:"salario"},
+ {q:"¿Hasta qué fecha debe la empresa consignar las cesantías del año anterior en tu fondo?", o:["31 de enero","14 de febrero","30 de junio","20 de diciembre"], a:1, e:"Art. 99 de la Ley 50 de 1990. Los intereses (12%) se te pagan a más tardar el 31 de enero.", l:"cesantias-que"},
+ {q:"Para retirar cesantías para vivienda, ¿a nombre de quién debe estar el inmueble?", o:["De cualquier familiar","Del trabajador, su cónyuge o compañero(a) permanente","Solo de los padres","No importa"], a:1, e:"Debe figurar en el certificado de tradición y libertad (máx. 30 días de expedido).", l:"cesantias-vivienda"},
+ {q:"En un retiro de cesantías para educación, ¿a quién le gira el dinero el fondo?", o:["Al trabajador","A la empresa","A la institución educativa o entidad de crédito","Al Ministerio de Educación"], a:2, e:"El giro es directo a la institución, no al trabajador.", l:"cesantias-educacion"},
+ {q:"¿Quién impone las sanciones disciplinarias en Distrileco?", o:["El jefe de área","El Gerente General","Cualquier coordinador","El Comité de Convivencia"], a:1, e:"Art. 91 del RIT. Los jefes de área reportan y documentan; no sancionan.", l:"principios"},
+ {q:"¿Cuál es la suspensión máxima la primera vez?", o:["3 días","8 días","15 días","2 meses"], a:1, e:"Art. 112 CST: 8 días la primera vez y hasta 2 meses en reincidencia.", l:"principios"},
+ {q:"¿Cuánto tiempo mínimo tienes para presentar descargos?", o:["24 horas","3 días hábiles","5 días hábiles","15 días hábiles"], a:2, e:"Etapa 2 del art. 108 del RIT: mínimo 5 días hábiles.", l:"procedimiento"},
+ {q:"Consumir u obsequiar un producto de la empresa sin autorización, aunque sea de poco valor, es:", o:["Permitido si es poco","Falta leve","Falta grave","No es falta"], a:2, e:"Falta 53: cualquiera que sea su valor. Habilita la terminación con justa causa.", l:"faltas-graves"},
+ {q:"Si tienes un accidente de trabajo, ¿qué es lo primero que debes hacer?", o:["Esperar a ver si mejora","Avisar de inmediato al jefe inmediato","Ir a la EPS al día siguiente","Llenar el FURAT tú mismo"], a:1, e:"Paso 1: aviso inmediato (art. 80). No reportarlo es falta 37.", l:"accidente"},
+ {q:"¿En qué plazo reporta la empresa el accidente a la ARL (FURAT)?", o:["El mismo día","2 días hábiles","5 días hábiles","15 días"], a:1, e:"Art. 62 del Decreto 1295 de 1994.", l:"accidente"},
+ {q:"¿En qué plazo debes presentar una incapacidad médica?", o:["Dentro de los 3 días siguientes a su expedición","Cuando vuelvas a trabajar","Dentro del mes","No hay que presentarla"], a:0, e:"Y avisar de inmediato la ausencia al jefe inmediato (falta 9).", l:"incapacidades"},
+ {q:"¿Ante quién se presenta una queja por acoso laboral?", o:["Ante un compañero","Por escrito, ante el Comité de Convivencia Laboral","En redes sociales","Ante el cliente"], a:1, e:"Art. 99 del RIT. Se garantiza confidencialidad y no hay represalias por quejas de buena fe.", l:"acoso"}
+];
+
+/* ====================== UTILIDADES ====================== */
+var $ = function(s, r){ return (r||document).querySelector(s); };
+var $$ = function(s, r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); };
+function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]; }); }
+function ic(n, cls){ return '<svg class="ico'+(cls?' '+cls:'')+'" aria-hidden="true"><use href="#i-'+n+'"/></svg>'; }
+function store(k, v){ try{ if(v===undefined){ var r=localStorage.getItem("ritd_"+k); return r?JSON.parse(r):null; } localStorage.setItem("ritd_"+k, JSON.stringify(v)); }catch(e){ return null; } }
+var COP = new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",maximumFractionDigits:0});
+function money(n){ return COP.format(Math.round(n||0)); }
+function parseMoney(s){ var n = parseInt(String(s).replace(/[^\d]/g,""),10); return isNaN(n)?0:n; }
+function bogotaNow(){ return new Date(new Date().toLocaleString("en-US",{timeZone:"America/Bogota"})); }
+function ymd(d){ return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
+function parseYmd(s){ var p=String(s).split("-"); return new Date(+p[0], +p[1]-1, +p[2]); }
+var DFMT = new Intl.DateTimeFormat("es-CO",{weekday:"long", day:"numeric", month:"long", year:"numeric"});
+function fdate(d){ var s = DFMT.format(d); return s.charAt(0).toUpperCase()+s.slice(1); }
+var IN_FRAME = (function(){ try{ return window.self !== window.top; }catch(e){ return true; } })();
+var toastT;
+function toast(msg){ var t=$("#toast"); if(!t){ t=document.createElement("div"); t.id="toast"; t.className="toast"; t.setAttribute("role","status"); document.body.appendChild(t);} t.textContent=msg; t.hidden=false; clearTimeout(toastT); toastT=setTimeout(function(){ t.hidden=true; },2600); }
+function copyText(txt){ try{ navigator.clipboard.writeText(txt).then(function(){ toast("Copiado: "+txt); }, function(){ toast("Selecciona el texto y cópialo"); }); }catch(e){ toast("Selecciona el texto y cópialo"); } }
+
+/* Festivos de Colombia (Ley 51 de 1983) */
+function easter(y){ var a=y%19,b=Math.floor(y/100),c=y%100,d=Math.floor(b/4),e=b%4,f=Math.floor((b+8)/25),g=Math.floor((b-f+1)/3),h=(19*a+b-d-g+15)%30,i=Math.floor(c/4),k=c%4,l=(32+2*e+2*i-h-k)%7,m=Math.floor((a+11*h+22*l)/451),mo=Math.floor((h+l-7*m+114)/31),da=((h+l-7*m+114)%31)+1; return new Date(y,mo-1,da); }
+var FEST_CACHE = {};
+function festivos(y){
+  if(FEST_CACHE[y]) return FEST_CACHE[y];
+  var s = {}; function add(d){ s[ymd(d)]=1; }
+  function mon(m,d){ var x=new Date(y,m-1,d); var w=x.getDay(); if(w!==1){ x.setDate(x.getDate()+((8-w)%7)); } return x; }
+  [[1,1],[5,1],[7,20],[8,7],[12,8],[12,25]].forEach(function(p){ add(new Date(y,p[0]-1,p[1])); });
+  [[1,6],[3,19],[6,29],[8,15],[10,12],[11,1],[11,11]].forEach(function(p){ add(mon(p[0],p[1])); });
+  var e = easter(y); [-3,-2,43,64,71].forEach(function(o){ var x=new Date(e); x.setDate(x.getDate()+o); add(x); });
+  FEST_CACHE[y]=s; return s;
+}
+function isHabil(d){ var w=d.getDay(); return w!==0 && w!==6 && !festivos(d.getFullYear())[ymd(d)]; }
+function addHabiles(d, n){ var x=new Date(d); var c=0; while(c<n){ x.setDate(x.getDate()+1); if(isHabil(x)) c++; } return x; }
+function addDias(d, n){ var x=new Date(d); x.setDate(x.getDate()+n); return x; }
+function days360(a, b){
+  var d1=Math.min(a.getDate(),30), d2=b.getDate();
+  var lastFeb = b.getMonth()===1 && new Date(b.getFullYear(),2,0).getDate()===d2;
+  d2 = lastFeb ? 30 : Math.min(d2,30);
+  return (b.getFullYear()-a.getFullYear())*360 + (b.getMonth()-a.getMonth())*30 + (d2-d1) + 1;
+}
+
+/* ====================== ESTADO ====================== */
+var READ = store("read") || {};
+function markRead(id){ READ[id]=1; store("read", READ); }
+function modLessons(mid){ return L.filter(function(x){ return x.m===mid; }); }
+function modProgress(mid){ var ls=modLessons(mid); var r=ls.filter(function(x){ return READ[x.id]; }).length; return {r:r, t:ls.length}; }
+function totalProgress(){ var r=L.filter(function(x){ return READ[x.id]; }).length; return {r:r, t:L.length, p: Math.round(r*100/L.length)}; }
+function modById(id){ return MODS.filter(function(m){ return m.id===id; })[0]; }
+
+/* ====================== RENDER DE BLOQUES ====================== */
+function rb(b){
+  switch(b.t){
+  case "lead": return '<p class="lead">'+esc(b.x)+'</p>';
+  case "p": return '<p>'+esc(b.x)+'</p>';
+  case "cards": return '<div class="cards">'+b.items.map(function(c){ return '<div class="card"><div class="ch"><span class="ci">'+ic(c.i)+'</span>'+esc(c.h)+'</div>'+(c.tag?'<span class="tag">'+esc(c.tag)+'</span>':'')+'<p>'+esc(c.x)+'</p></div>'; }).join("")+'</div>';
+  case "stats": return '<div class="stats">'+b.items.map(function(s){ return '<div class="stat"><div class="n">'+esc(s.n)+(s.u?'<small>'+esc(s.u)+'</small>':'')+'</div><b>'+esc(s.h)+'</b><p>'+esc(s.x)+'</p></div>'; }).join("")+'</div>';
+  case "table": return '<div>'+(b.h?'<h4 style="margin:0 0 8px;font-size:15px">'+esc(b.h)+'</h4>':'')+'<div class="tbl"><table><thead><tr>'+b.head.map(function(h){return '<th>'+esc(h)+'</th>';}).join("")+'</tr></thead><tbody>'+b.rows.map(function(r,i){ return '<tr'+(i===b.cur?' class="cur"':'')+'>'+r.map(function(c){return '<td>'+esc(c)+'</td>';}).join("")+'</tr>'; }).join("")+'</tbody></table></div></div>';
+  case "steps": return '<div>'+(b.h?'<h4 style="margin:0 0 12px;font-size:15px">'+esc(b.h)+'</h4>':'')+'<div class="steps">'+b.items.map(function(s){ return '<div class="step"><span class="sn"></span><div><b>'+esc(s.h)+'</b><p>'+esc(s.x)+'</p></div></div>'; }).join("")+'</div></div>';
+  case "list": return '<div class="lst"><h4>'+(b.i?'<span style="color:var(--accent)">'+ic(b.i)+'</span>':'')+esc(b.h)+'</h4><ul>'+b.items.map(function(x){ return '<li>'+esc(x)+'</li>'; }).join("")+'</ul></div>';
+  case "cols": return '<div class="cols">'+b.items.map(function(c){ return '<div class="lst"><h4><span style="color:var(--accent)">'+ic(c.i)+'</span>'+esc(c.h)+'</h4>'+(c.x?'<p style="margin:0 0 '+(c.list?'10px':'0')+';color:var(--ink-2);font-size:14.5px">'+esc(c.x)+'</p>':'')+(c.list?'<ul>'+c.list.map(function(x){return '<li>'+esc(x)+'</li>';}).join("")+'</ul>':'')+'</div>'; }).join("")+'</div>';
+  case "callout": return '<div class="callout '+b.k+'">'+ic(b.i||"warn")+'<div>'+esc(b.x)+'</div></div>';
+  case "chips": return '<div><h4 style="margin:0 0 8px;font-size:15px">'+esc(b.h)+'</h4><div class="refs" style="margin:0">'+b.items.map(function(x){return '<span class="chip">'+esc(x)+'</span>';}).join("")+'</div></div>';
+  case "org": return '<div><h4 style="margin:0 0 8px;font-size:15px">'+esc(b.h)+'</h4><div class="org">'+b.items.map(function(x,i){ return '<div style="margin-left:'+(i*14)+'px"><span>'+(i+1)+'</span>'+esc(x)+'</div>'; }).join("")+'</div></div>';
+  case "more": return '<details class="more"><summary>'+ic("help")+esc(b.h)+'</summary><div>'+esc(b.x)+'</div></details>';
+  case "tool": return '<a class="callout info no-pres" style="text-decoration:none" href="#herramientas" data-tool="'+b.to+'">'+ic("calc")+'<div><b>'+esc(b.h)+'</b> · abrir herramienta</div></a>';
+  case "cta": return '<div class="no-pres"><a class="b pri" href="#'+b.to+'">'+ic("pen")+esc(b.h)+'</a></div>';
+  case "commits": return '<div class="commits">'+COMMITS.map(function(c){ return '<div class="commit"><span class="ci">'+ic(c.i)+'</span>'+esc(c.x)+'</div>'; }).join("")+'</div>';
+  case "contact": return contactHtml();
+  }
+  return "";
+}
+function contactHtml(){
+  return '<div class="contact">'+
+   '<div class="card"><div class="ch"><span class="ci">'+ic("mail")+'</span>Gestión Humana</div><span class="v">gestionhumana@distrileco.com</span><button class="b sm ghost" type="button" data-copy="gestionhumana@distrileco.com">Copiar correo</button></div>'+
+   '<div class="card"><div class="ch"><span class="ci">'+ic("phone")+'</span>Teléfono</div><span class="v">8393001</span><button class="b sm ghost" type="button" data-copy="8393001">Copiar número</button></div>'+
+   '<div class="card"><div class="ch"><span class="ci">'+ic("pin")+'</span>Dirección</div><span class="v">Carrera 2 Diagonal 25 No. 2-25, Caucasia</span></div>'+
+  '</div>';
+}
+
+/* ====================== VISTAS ====================== */
+var NAV = [
+ {h:"inicio", t:"Inicio", i:"home"},
+ {h:"temas", t:"Temas", i:"list"},
+ {h:"herramientas", t:"Calculadoras", i:"calc"},
+ {h:"evaluacion", t:"Evaluación", i:"help"},
+ {h:"constancia", t:"Constancia", i:"pen"}
+];
+function renderNav(cur){
+  var top = NAV.map(function(n){ return '<a href="#'+n.h+'" class="'+(n.h===cur?'on':'')+'">'+ic(n.i)+n.t+'</a>'; }).join("") + '<a href="#buscar" class="'+(cur==="buscar"?'on':'')+'" aria-label="Buscar">'+ic("search")+'</a>';
+  $("#nav").innerHTML = top;
+  $("#tabbar").innerHTML = NAV.map(function(n){ return '<a href="#'+n.h+'" class="'+(n.h===cur?'on':'')+'">'+ic(n.i)+'<span>'+n.t+'</span></a>'; }).join("");
+}
+
+function vInicio(){
+  var tp = totalProgress(); var C = 2*Math.PI*36; var nextL = L.filter(function(x){ return !READ[x.id]; })[0];
+  var q = store("quiz");
+  return '<section class="hero"><div class="wrap">'+
+   '<div><div class="eyebrow">Socialización · 19 de octubre de 2026</div>'+
+   '<h1>Reglamento Interno de Trabajo, <em>proceso disciplinario</em>, prestaciones sociales, cesantías y seguridad y salud en el trabajo</h1>'+
+   '<p>Tus derechos y deberes como colaborador de Distrileco Caucasia S.A.S., con el Reglamento actualizado en junio de 2026 conforme a la Ley 2466 de 2025.</p>'+
+   '<div class="hero-actions"><a class="b pri" href="#leccion-'+(nextL?nextL.id:L[0].id)+'">'+ic("play")+(tp.r?'Continuar':'Empezar')+'</a><button class="b ghost" type="button" data-present="0">'+ic("screen")+'Ver como presentación</button></div>'+
+   '<div class="who"><img src="logo-velez-rivero.png" alt="Vélez Rivero Abogados"><div><b>Dr. Juan David Tangarife Vélez</b>Abogado · Asesor jurídico de Distrileco Caucasia S.A.S.</div></div></div>'+
+   '<div class="prog"><div class="ring"><svg viewBox="0 0 84 84"><circle cx="42" cy="42" r="36" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="8"/><circle cx="42" cy="42" r="36" fill="none" stroke="#6CC59B" stroke-width="8" stroke-linecap="round" stroke-dasharray="'+C+'" stroke-dashoffset="'+(C*(1-tp.p/100))+'" transform="rotate(-90 42 42)"/></svg><div><div class="big">'+tp.p+'%</div><small>'+tp.r+' de '+tp.t+' lecciones leídas</small></div></div>'+
+   '<div style="display:grid;gap:6px;font-size:13.5px;color:var(--hero-muted)">'+
+    '<div style="display:flex;justify-content:space-between"><span>Evaluación</span><b style="color:var(--hero-ink)">'+(q?q.s+' / '+q.t:'Pendiente')+'</b></div>'+
+    '<div style="display:flex;justify-content:space-between"><span>Constancia de recibo</span><b style="color:var(--hero-ink)">'+((store("plan")||[]).length?'Firmada en este equipo':'Pendiente')+'</b></div>'+
+   '</div></div>'+
+  '</div></section>'+
+  '<section class="sec"><div class="wrap">'+
+   '<div class="sec-h"><div><h2>Temas a tratar</h2><p>Seis bloques, del Reglamento al cierre. Las preguntas se atienden al final de cada tema.</p></div><a class="b ghost sm" href="#temas">'+ic("list")+'Ver índice completo</a></div>'+
+   '<div class="mods">'+MODS.map(function(m){ var p=modProgress(m.id); return '<a class="mod" href="#modulo-'+m.id+'"><div class="mh"><span class="mi">'+ic(m.i)+'</span><span class="num">'+m.n+'</span></div><h3>'+esc(m.t)+'</h3><p>'+esc(m.d)+'</p><div class="mf"><div class="bar"><i style="width:'+(p.r*100/p.t)+'%"></i></div>'+p.r+'/'+p.t+'</div></a>'; }).join("")+'</div>'+
+  '</div></section>'+
+  '<section class="sec" style="padding-top:0"><div class="wrap">'+
+   '<div class="sec-h"><div><h2>Cinco compromisos para llevarse hoy</h2></div></div>'+ rb({t:"commits"}) +
+  '</div></section>'+
+  '<section class="sec" style="padding-top:0"><div class="wrap">'+
+   '<div class="sec-h"><div><h2>Herramientas para el día a día</h2><p>Valores 2026: salario mínimo '+money(SMMLV)+' y auxilio de transporte '+money(AUXT)+'.</p></div></div>'+
+   '<div class="mods">'+
+    toolCard("recargos","clock","Horas extra y recargos","Valor de tus horas extra, nocturnas y dominicales con la jornada de 42 horas.")+
+    toolCard("prestaciones","db","Cesantías, intereses y vacaciones","Liquida lo proporcional al tiempo trabajado.")+
+    toolCard("plazos","cal","Plazos que no se pueden pasar","FURAT, incapacidad, descargos, reposición, luto y vacaciones, con festivos.")+
+   '</div>'+
+  '</div></section>'+
+  '<section class="sec" style="padding-top:0"><div class="wrap"><div class="sec-h"><div><h2>¿Dudas? Gestión Humana</h2></div></div>'+contactHtml()+'</div></section>';
+}
+function toolCard(id, i, t, d){ return '<a class="mod" href="#herramientas" data-tool="'+id+'"><div class="mh"><span class="mi">'+ic(i)+'</span></div><h3>'+esc(t)+'</h3><p>'+esc(d)+'</p><div class="mf" style="color:var(--accent);font-weight:700">Abrir '+ic("right")+'</div></a>'; }
+
+function vTemas(focus){
+  return '<section class="sec"><div class="wrap read" style="max-width:860px">'+
+   '<div class="sec-h"><div><div class="eyebrow">Índice</div><h2>Contenido de la socialización</h2><p>'+L.length+' lecciones en seis temas. Marca tu avance a medida que lees.</p></div><button class="b pri sm" type="button" data-present="0">'+ic("screen")+'Presentar</button></div>'+
+   '<div class="toc">'+MODS.map(function(m){ var ls=modLessons(m.id); var p=modProgress(m.id); return '<div class="toc-m" id="modulo-'+m.id+'"><header><span class="mi">'+ic(m.i)+'</span><div style="flex:1;min-width:0"><h3>'+m.n+' · '+esc(m.t)+'</h3><p>'+esc(m.d)+'</p></div><small style="color:var(--muted);font-weight:700">'+p.r+'/'+p.t+'</small></header>'+(m.lead?'<p style="margin:0;padding:12px 18px;border-top:1px solid var(--line);font-family:var(--f-display);font-style:italic;color:var(--ink-2)">'+esc(m.lead)+'</p>':'')+'<ol>'+ls.map(function(l,i){ return '<li><a href="#leccion-'+l.id+'"><span class="k">'+m.n+'.'+(i+1)+'</span><span>'+esc(l.t)+'</span><span class="tick'+(READ[l.id]?' on':'')+'">'+(READ[l.id]?ic("check"):'')+'</span></a></li>'; }).join("")+'</ol></div>'; }).join("")+'</div>'+
+  '</div></section>';
+}
+
+function vLeccion(id){
+  var idx = -1; L.forEach(function(x,i){ if(x.id===id) idx=i; });
+  if(idx<0) return vTemas();
+  var l = L[idx], m = modById(l.m), ml = modLessons(l.m), pos = ml.indexOf(l)+1;
+  var prev = L[idx-1], next = L[idx+1];
+  return '<section class="sec"><div class="wrap read">'+
+   '<div class="crumbs"><a href="#temas">Temas</a>'+ic("right")+'<a href="#modulo-'+m.id+'">'+m.n+' · '+esc(m.t)+'</a></div>'+
+   '<div class="lesson-h"><div class="eyebrow">Lección '+pos+' de '+ml.length+'</div><h1>'+esc(l.t)+'</h1></div>'+
+   '<div class="refs">'+l.refs.map(function(r){ return '<span class="chip">'+esc(r)+'</span>'; }).join("")+'</div>'+
+   '<div class="blocks">'+l.b.map(rb).join("")+'</div>'+
+   '<div class="done-row">'+(READ[l.id]?'<span class="done-pill">'+ic("check")+'Leída</span>':'<button class="b pri" type="button" data-read="'+l.id+'">'+ic("check")+'Marcar como leída</button>')+'<button class="b ghost" type="button" data-present-lesson="'+l.id+'">'+ic("screen")+'Ver en presentación</button></div>'+
+   '<nav class="pager">'+(prev?'<a href="#leccion-'+prev.id+'"><small>← Anterior</small><b>'+esc(prev.t)+'</b></a>':'<span></span>')+(next?'<a class="nx" href="#leccion-'+next.id+'" data-autoread="'+l.id+'"><small>Siguiente →</small><b>'+esc(next.t)+'</b></a>':'<a class="nx" href="#evaluacion" data-autoread="'+l.id+'"><small>Terminaste →</small><b>Haz la evaluación</b></a>')+'</nav>'+
+  '</div></section>';
+}
+
+function vBuscar(){
+  return '<section class="sec"><div class="wrap read">'+
+   '<div class="sec-h"><div><div class="eyebrow">Buscar</div><h2>¿Qué dice el Reglamento sobre…?</h2><p>Prueba con: cesantías, luto, incapacidad, descargos, horas extra, libranza, acoso.</p></div></div>'+
+   '<label class="search" for="q">'+ic("search")+'<input id="q" type="search" placeholder="Escribe una palabra o un artículo" autocomplete="off"></label>'+
+   '<div class="results" id="res"></div>'+
+  '</div></section>';
+}
+function norm(s){ return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,""); }
+function lessonText(l){ var t=[l.t].concat(l.refs); l.b.forEach(function(b){ ["x","h"].forEach(function(k){ if(b[k]) t.push(b[k]); }); (b.items||[]).forEach(function(it){ if(typeof it==="string") t.push(it); else { ["h","x","tag","n"].forEach(function(k){ if(it[k]) t.push(it[k]); }); (it.list||[]).forEach(function(z){ t.push(z); }); } }); (b.rows||[]).forEach(function(r){ t.push(r.join(" ")); }); }); return t; }
+function doSearch(q){
+  var out = $("#res"); if(!out) return;
+  var nq = norm(q.trim()); if(nq.length<2){ out.innerHTML=''; return; }
+  var words = nq.split(/\s+/);
+  var hits = [];
+  L.forEach(function(l){ var parts = lessonText(l); var score=0, snip="";
+    parts.forEach(function(p){ var np=norm(p); var ok = words.every(function(w){ return np.indexOf(w)>=0; }); if(ok){ score++; if(!snip) snip=p; } });
+    if(score) hits.push({l:l, s:score, snip:snip}); });
+  hits.sort(function(a,b){ return b.s-a.s; });
+  if(!hits.length){ out.innerHTML='<p class="fine">Sin resultados para “'+esc(q)+'”. Prueba con otra palabra o consulta a Gestión Humana.</p>'; return; }
+  out.innerHTML = hits.map(function(h){ var m=modById(h.l.m); return '<a class="res" href="#leccion-'+h.l.id+'"><small>'+m.n+' · '+esc(m.t)+'</small><b>'+esc(h.l.t)+'</b><p>'+hl(h.snip, words)+'</p></a>'; }).join("");
+}
+function hl(text, words){
+  var t = esc(text.length>220? text.slice(0,220)+"…" : text);
+  var nt = norm(t); var marks=[];
+  words.forEach(function(w){ var i=nt.indexOf(w); if(i>=0) marks.push([i,i+w.length]); });
+  marks.sort(function(a,b){return b[0]-a[0];});
+  marks.forEach(function(m){ t = t.slice(0,m[0])+'<mark>'+t.slice(m[0],m[1])+'</mark>'+t.slice(m[1]); });
+  return t;
+}
+
+/* ---------- Herramientas ---------- */
+var TOOL = "recargos";
+function vHerramientas(){
+  var tabs = [["recargos","clock","Horas extra y recargos"],["prestaciones","db","Cesantías y vacaciones"],["libranza","lock","Límite de libranza"],["plazos","cal","Plazos"]];
+  return '<section class="sec"><div class="wrap">'+
+   '<div class="sec-h"><div><div class="eyebrow">Calculadoras</div><h2>Haz tus cuentas con las reglas del Reglamento</h2><p>Valores orientativos. Tu liquidación oficial la hace Gestión Humana.</p></div></div>'+
+   '<div class="tools-nav" role="tablist">'+tabs.map(function(t){ return '<button type="button" role="tab" data-tab="'+t[0]+'" class="'+(TOOL===t[0]?'on':'')+'">'+ic(t[1])+t[2]+'</button>'; }).join("")+'</div>'+
+   '<div id="toolBody">'+toolBody(TOOL)+'</div>'+
+  '</div></section>';
+}
+function toolBody(t){
+  var st = store("sal") || SMMLV;
+  if(t==="recargos") return '<div class="tool"><form class="panel" id="fRec" onsubmit="return false">'+
+     '<h3>Tus horas del período</h3><p>Hora ordinaria = salario ÷ '+HORAS_MES+' (jornada de 42 h semanales).</p>'+
+     '<div class="f"><label for="r_sal">Salario básico mensual</label><input id="r_sal" inputmode="numeric" value="'+money(st)+'"><span class="hint">Salario mínimo 2026: '+money(SMMLV)+'</span></div>'+
+     '<div class="row2">'+
+      numF("r_hed","Horas extra diurnas",4)+numF("r_hen","Horas extra nocturnas",0)+
+      numF("r_rn","Horas nocturnas ordinarias",0)+numF("r_dd","Horas dominicales/festivas",8)+
+      numF("r_hedd","Extra diurnas en domingo",0)+numF("r_hend","Extra nocturnas en domingo",0)+
+     '</div></form>'+
+    '<div class="panel"><h3>Resultado</h3><div class="out" id="oRec"></div><div id="wRec"></div><p class="fine">Recargos: nocturno 35%, extra diurna 25%, extra nocturna 75%, dominical/festivo 90% (desde el 1-jul-2026). Las horas dominicales y nocturnas ordinarias muestran solo el recargo, porque el salario mensual ya paga la hora ordinaria. Las extra en domingo suman el recargo de la extra y el dominical.</p></div></div>';
+  if(t==="prestaciones"){ var y=bogotaNow().getFullYear();
+    return '<div class="tool"><form class="panel" id="fPre" onsubmit="return false">'+
+     '<h3>Período a liquidar</h3><p>Se cuenta con meses de 30 días (año de 360), como en la liquidación laboral.</p>'+
+     '<div class="f"><label for="p_sal">Salario básico mensual</label><input id="p_sal" inputmode="numeric" value="'+money(st)+'"></div>'+
+     '<div class="row2"><div class="f"><label for="p_ini">Desde</label><input id="p_ini" type="date" value="'+y+'-01-01"></div><div class="f"><label for="p_fin">Hasta</label><input id="p_fin" type="date" value="'+ymd(bogotaNow())+'"></div></div>'+
+     '<div class="f"><label for="p_var">Promedio mensual de extras, recargos y comisiones (opcional)</label><input id="p_var" inputmode="numeric" value="$ 0"><span class="hint">Lo variable entra en la base de cesantías, no en la de vacaciones.</span></div>'+
+     '<label class="chk"><input type="checkbox" id="p_aux" checked><span>Incluir auxilio de transporte ('+money(AUXT)+') en la base de cesantías. Aplica si ganas hasta 2 salarios mínimos.</span></label>'+
+     '</form><div class="panel"><h3>Resultado</h3><div class="out" id="oPre"></div><p class="fine">Cesantías = base × días ÷ 360 (art. 249 CST). Intereses = cesantías × días × 12% ÷ 360 (Ley 52 de 1975). Vacaciones = 15 días hábiles por año, proporcional al tiempo (salario ÷ 30 por día).</p></div></div>'; }
+  if(t==="libranza") return '<div class="tool"><form class="panel" id="fLib" onsubmit="return false">'+
+     '<h3>Tu nómina mensual</h3><p>Después de los descuentos de ley y de libranza debes recibir al menos el 50% del salario neto (Ley 1527 de 2012; arts. 105 y 106 del RIT).</p>'+
+     '<div class="f"><label for="l_sal">Salario mensual devengado</label><input id="l_sal" inputmode="numeric" value="'+money(st)+'"></div>'+
+     '<div class="f"><label for="l_otros">Otros descuentos de ley (retención, embargo…)</label><input id="l_otros" inputmode="numeric" value="$ 0"></div>'+
+     '<div class="f"><label for="l_cuota">Cuotas de libranza mensuales (todas)</label><input id="l_cuota" inputmode="numeric" value="$ 500.000"></div>'+
+     '</form><div class="panel"><h3>Resultado</h3><div class="out" id="oLib"></div><div id="sLib"></div><p class="fine">Descuentos de ley considerados: salud 4% y pensión 4% del salario. Si superas el límite, la empresa no puede aplicar el descuento adicional.</p></div></div>';
+  if(t==="plazos") return '<div class="tool"><form class="panel" id="fPla" onsubmit="return false">'+
+     '<h3>¿Qué pasó y cuándo?</h3><p>Los días hábiles se cuentan de lunes a viernes, sin festivos de Colombia.</p>'+
+     '<div class="f"><label for="z_tipo">Situación</label><select id="z_tipo">'+
+      '<option value="accidente">Accidente de trabajo</option>'+
+      '<option value="incapacidad">Me expidieron una incapacidad</option>'+
+      '<option value="cargos">Me notificaron cargos disciplinarios</option>'+
+      '<option value="decision">Me notificaron una sanción</option>'+
+      '<option value="luto">Fallecimiento de un familiar (luto)</option>'+
+      '<option value="vacaciones">Inicio de mis vacaciones</option>'+
+      '<option value="cesantias">Cesantías del año en curso</option>'+
+     '</select></div>'+
+     '<div class="f" id="z_fw"><label for="z_fecha">Fecha</label><input id="z_fecha" type="date" value="'+ymd(bogotaNow())+'"></div>'+
+     '</form><div class="panel"><h3>Fechas clave</h3><div class="dl" id="oPla"></div><p class="fine" id="nPla"></p></div></div>';
+  return "";
+}
+function numF(id, label, v){ return '<div class="f"><label for="'+id+'">'+label+'</label><input id="'+id+'" type="number" min="0" step="0.5" inputmode="decimal" value="'+v+'"></div>'; }
+function ln(a,b,cls){ return '<div class="ln'+(cls?' '+cls:'')+'"><span>'+a+'</span><span>'+b+'</span></div>'; }
+function num(id){ var v=parseFloat(($("#"+id)||{}).value); return isNaN(v)||v<0?0:v; }
+function calcTool(){
+  if(TOOL==="recargos"){ var s=parseMoney($("#r_sal").value); store("sal",s); var h=s/HORAS_MES;
+    var rows=[["Extra diurna (×1,25)",num("r_hed"),1.25],["Extra nocturna (×1,75)",num("r_hen"),1.75],["Recargo nocturno (+35%)",num("r_rn"),0.35],["Recargo dominical/festivo (+90%)",num("r_dd"),0.90],["Extra diurna dominical (×2,15)",num("r_hedd"),2.15],["Extra nocturna dominical (×2,65)",num("r_hend"),2.65]];
+    var tot=0, html=ln("Valor hora ordinaria", money(h));
+    rows.forEach(function(r){ if(r[1]>0){ var v=h*r[2]*r[1]; tot+=v; html+=ln(r[0]+" · "+r[1]+" h", money(v)); } });
+    html+=ln("Total adicional al salario", money(tot), "tot");
+    $("#oRec").innerHTML=html;
+    var ext = num("r_hed")+num("r_hen")+num("r_hedd")+num("r_hend");
+    $("#wRec").innerHTML = ext>12 ? '<div class="callout warn">'+ic("warn")+'<div>Registraste '+ext+' horas extra. El límite es 2 diarias y 12 semanales (art. 45 del RIT), y siempre con autorización previa.</div></div>' : '';
+  }
+  if(TOOL==="prestaciones"){ var s2=parseMoney($("#p_sal").value); store("sal",s2); var vr=parseMoney($("#p_var").value);
+    var a=parseYmd($("#p_ini").value), b=parseYmd($("#p_fin").value);
+    if(!$("#p_ini").value || !$("#p_fin").value || b<a){ $("#oPre").innerHTML='<p class="fine">Revisa las fechas: la fecha final debe ser igual o posterior a la inicial.</p>'; return; }
+    var aux = $("#p_aux").checked && s2 <= 2*SMMLV ? AUXT : 0;
+    var d=days360(a,b); var base=s2+vr+aux; var ces=base*d/360; var int=ces*d*0.12/360; var vd=d*15/360; var vac=s2/30*vd;
+    $("#oPre").innerHTML = ln("Días trabajados (base 360)", d) + ln("Base cesantías", money(base)) + ($("#p_aux").checked && s2>2*SMMLV ? ln("Auxilio de transporte","No aplica (más de 2 SMMLV)") : "") +
+      ln("Cesantías", money(ces)) + ln("Intereses a las cesantías (12%)", money(int)) + ln("Días de vacaciones causados", vd.toFixed(2).replace(".",",")+" hábiles") + ln("Valor de esas vacaciones", money(vac)) + ln("Total cesantías + intereses", money(ces+int), "tot");
+  }
+  if(TOOL==="libranza"){ var s3=parseMoney($("#l_sal").value); store("sal",s3); var otros=parseMoney($("#l_otros").value), cuota=parseMoney($("#l_cuota").value);
+    var ley=s3*0.08; var neto=s3-ley-otros; var min=neto*0.5; var recibe=neto-cuota; var max=Math.max(0,neto-min);
+    $("#oLib").innerHTML = ln("Salud y pensión (8%)", money(ley)) + ln("Otros descuentos de ley", money(otros)) + ln("Salario neto", money(neto)) + ln("Mínimo que debes recibir (50%)", money(min)) + ln("Cupo máximo para libranzas", money(max)) + ln("Recibirías", money(recibe), "tot");
+    $("#sLib").innerHTML = recibe >= min ? '<div class="status ok">Dentro del límite: te quedan '+money(recibe-min)+' de margen.</div>' : '<div class="status bad">Supera el límite en '+money(min-recibe)+'. La empresa no puede aplicar ese descuento.</div>';
+  }
+  if(TOOL==="plazos"){ var tp=$("#z_tipo").value; var f=parseYmd($("#z_fecha").value||ymd(bogotaNow())); var out=[], note="";
+    $("#z_fw").hidden = tp==="cesantias";
+    $("#z_fw label").textContent = {accidente:"Fecha del accidente",incapacidad:"Fecha de expedición de la incapacidad",cargos:"Fecha en que te notificaron los cargos",decision:"Fecha en que te notificaron la decisión",luto:"Fecha del fallecimiento",vacaciones:"Fecha de inicio de las vacaciones"}[tp]||"Fecha";
+    function D(h,s,d){ out.push('<div class="d"><div><b>'+h+'</b><small>'+s+'</small></div><span class="dt">'+fdate(d)+'</span></div>'); }
+    if(tp==="accidente"){ D("Aviso al jefe inmediato","De inmediato, el mismo día (art. 80; falta 37)",f); D("FURAT a la ARL y a la EPS","2 días hábiles (art. 62, Decreto 1295 de 1994)",addHabiles(f,2)); D("Reporte a MinTrabajo si es grave o mortal","2 días hábiles (art. 2.2.4.1.7, Decreto 1072 de 2015)",addHabiles(f,2)); D("Investigación con el COPASST","15 días siguientes (Resolución 1401 de 2007)",addDias(f,15)); note="El FURAT lo diligencia Gestión Humana con la información del jefe inmediato."; }
+    if(tp==="incapacidad"){ D("Avisar la ausencia al jefe inmediato","De inmediato",f); D("Entregar la incapacidad","Dentro de los 3 días siguientes a su expedición (falta 9)",addDias(f,3)); note="Solo se admiten incapacidades expedidas por el Sistema General de Seguridad Social. Ante cualquier duda sobre el conteo, entrégala cuanto antes."; }
+    if(tp==="cargos"){ D("Último día para presentar descargos","Mínimo 5 días hábiles (art. 108, etapa 2)",addHabiles(f,5)); note="Puedes presentarlos por escrito o en diligencia verbal, controvertir las pruebas y aportar las tuyas. La comunicación de cargos puede darte un plazo mayor."; }
+    if(tp==="decision"){ var r=addHabiles(f,5); D("Último día para el recurso de reposición","5 días hábiles (art. 108, etapa 4)",r); D("La empresa resuelve a más tardar","15 días hábiles después de interpuesto el recurso",addHabiles(r,15)); note="El recurso suspende los efectos de la sanción mientras se resuelve. El segundo plazo se cuenta desde el último día; si lo presentas antes, la respuesta llega antes."; }
+    if(tp==="luto"){ var ini = isHabil(f)?f:addHabiles(f,1); var fin=addHabiles(ini,4); D("Licencia por luto","5 días hábiles remunerados, del "+fdate(ini).toLowerCase(),fin); D("Último día para acreditarla","30 días siguientes, con certificado de defunción y prueba del parentesco (art. 60)",addDias(f,30)); note="Fecha final estimada contando desde el día hábil del fallecimiento o el siguiente; Gestión Humana confirma las fechas exactas."; }
+    if(tp==="vacaciones"){ D("La empresa debe avisarte a más tardar","15 días de anticipación (art. 187 CST)",addDias(f,-15)); var fv=f; var c=isHabil(f)?1:0; if(!c){ fv=addHabiles(f,1); c=1; } fv=addHabiles(fv,14); D("Último día de vacaciones (15 hábiles)","Sábados, domingos y festivos no se descuentan",fv); D("Regreso al trabajo","Primer día hábil siguiente",addHabiles(fv,1)); note="Calculado con sábados no hábiles. Si en tu área el sábado es laborable, Gestión Humana ajusta las fechas."; }
+    if(tp==="cesantias"){ var y=bogotaNow().getFullYear()+1; D("Pago de intereses a las cesantías","Directo a ti, 12% anual (Ley 52 de 1975)",new Date(y,0,31)); D("Consignación de cesantías en tu fondo","Art. 99, Ley 50 de 1990",new Date(y,1,14)); note="La mora en la consignación causa un día de salario por cada día de retardo."; }
+    $("#oPla").innerHTML = out.join(""); $("#nPla").textContent = note;
+  }
+}
+
+/* ---------- Evaluación ---------- */
+var QS = null;
+function vEvaluacion(){
+  var last = store("quiz");
+  return '<section class="sec"><div class="wrap quiz">'+
+   '<div class="sec-h"><div><div class="eyebrow">Evaluación</div><h2>¿Qué tanto te quedó?</h2><p>'+QUIZ.length+' preguntas sobre la socialización. Cada respuesta trae su explicación.</p></div>'+(last?'<span class="chip">Último resultado: '+last.s+' / '+last.t+'</span>':'')+'</div>'+
+   '<div id="quiz"></div></div></section>';
+}
+function quizStart(){ QS = {i:0, s:0, ans:[]}; quizRender(); }
+function quizRender(){
+  var box = $("#quiz"); if(!box) return;
+  if(!QS){ box.innerHTML='<div class="qcard score"><span class="mi" style="width:56px;height:56px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center">'+ic("help")+'</span><h3 style="margin:0">Listo para empezar</h3><p style="margin:0;color:var(--muted)">Responde con lo que recuerdes. Puedes repetirla las veces que quieras.</p><button class="b pri" type="button" id="qStart">'+ic("play")+'Empezar evaluación</button></div>'; return; }
+  if(QS.i>=QUIZ.length){ var pct=Math.round(QS.s*100/QUIZ.length); store("quiz",{s:QS.s,t:QUIZ.length,d:Date.now()});
+    var wrong = QS.ans.map(function(a,i){ return a===QUIZ[i].a?null:i; }).filter(function(x){ return x!==null; });
+    box.innerHTML='<div class="qcard score"><div class="big">'+QS.s+'<span style="font-size:24px;color:var(--muted)"> / '+QUIZ.length+'</span></div><h3 style="margin:0">'+(pct>=80?'¡Muy bien! Dominas el Reglamento.':pct>=60?'Vas bien. Repasa los temas marcados.':'Conviene repasar antes de firmar.')+'</h3>'+
+     (wrong.length?'<div style="text-align:left;width:100%;display:grid;gap:8px;margin-top:6px"><b style="font-size:14px">Repasa:</b>'+wrong.map(function(i){ var l=L.filter(function(x){return x.id===QUIZ[i].l;})[0]; return '<a class="res" href="#leccion-'+l.id+'"><small>Pregunta '+(i+1)+'</small><b>'+esc(l.t)+'</b></a>'; }).join("")+'</div>':'')+
+     '<div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:8px"><button class="b ghost" type="button" id="qStart">Repetir</button><a class="b pri" href="#constancia">'+ic("pen")+'Ir a la constancia</a></div></div>'; return; }
+  var q = QUIZ[QS.i], answered = QS.ans[QS.i];
+  box.innerHTML = '<div class="qhead"><span>Pregunta '+(QS.i+1)+' de '+QUIZ.length+'</span><span>Aciertos: '+QS.s+'</span></div><div class="bar" style="margin-bottom:14px"><i style="width:'+(QS.i*100/QUIZ.length)+'%;background:var(--accent)"></i></div>'+
+   '<div class="qcard"><h3>'+esc(q.q)+'</h3><div class="opts">'+q.o.map(function(o,i){ var cls = answered===undefined?'':(i===q.a?' ok':(i===answered?' bad':'')); return '<button type="button" class="opt'+cls+'" data-opt="'+i+'"'+(answered!==undefined?' disabled':'')+'><span class="lt">'+"ABCD"[i]+'</span>'+esc(o)+'</button>'; }).join("")+'</div>'+
+   (answered!==undefined?'<div class="callout '+(answered===q.a?'ok':'warn')+' expl">'+ic(answered===q.a?'checkc':'warn')+'<div><b>'+(answered===q.a?'Correcto.':'La respuesta es: '+esc(q.o[q.a])+'.')+'</b> '+esc(q.e)+'</div></div><div style="display:flex;justify-content:flex-end;margin-top:14px"><button class="b pri" type="button" id="qNext">'+(QS.i+1<QUIZ.length?'Siguiente':'Ver resultado')+ic("right")+'</button></div>':'')+'</div>';
+}
+
+/* ---------- Constancia ---------- */
+function vConstancia(){
+  var plan = store("plan") || [];
+  var q = store("quiz");
+  return '<section class="sec"><div class="wrap">'+
+   '<div class="sec-h"><div><div class="eyebrow">Art. 113 del RIT</div><h2>Constancia de recibo y socialización</h2><p>Cada colaborador deja constancia de haber recibido, leído y entendido el Reglamento. Las firmas quedan guardadas en este equipo para que Gestión Humana las exporte.</p></div></div>'+
+   '<div class="tool">'+
+    '<form class="panel no-print" id="fCons" autocomplete="off">'+
+     '<div class="f"><label for="c_nom">Nombre completo</label><input id="c_nom" required placeholder="Como aparece en la cédula"></div>'+
+     '<div class="row2"><div class="f"><label for="c_doc">Cédula</label><input id="c_doc" inputmode="numeric" required></div><div class="f"><label for="c_car">Cargo / área</label><input id="c_car" required placeholder="Ej.: Vendedor, Bodega, Conductor"></div></div>'+
+     '<div class="const-txt" id="cTxt"></div>'+
+     '<div class="f"><label for="sig">Firma</label><canvas class="sig" id="sig" aria-label="Recuadro de firma"></canvas><span class="hint">Firma con el dedo o el mouse. <button type="button" class="b sm ghost" id="sigClr" style="margin-left:6px">Borrar firma</button></span></div>'+
+     '<label class="chk"><input type="checkbox" id="c_ok" required><span>Declaro que recibí, leí y entendí el Reglamento Interno de Trabajo y que participé en su socialización.</span></label>'+
+     '<button class="b pri" type="submit">'+ic("pen")+'Firmar constancia</button>'+
+     '<p class="fine" id="cErr" role="alert"></p>'+
+    '</form>'+
+    '<div class="panel">'+
+     '<div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap"><h3>Planilla de firmas <span class="chip">'+plan.length+'</span></h3>'+
+      '<div class="no-print" style="display:flex;gap:8px;flex-wrap:wrap">'+(IN_FRAME?'':'<button class="b sm ghost" type="button" id="pPrint">Imprimir planilla</button><button class="b sm ghost" type="button" id="pCsv">Exportar CSV</button>')+'<button class="b sm ghost" type="button" id="pCopy">Copiar lista</button></div></div>'+
+     '<div class="print-only"><b>Distrileco Caucasia S.A.S. · Planilla de socialización del Reglamento Interno de Trabajo · 19 de octubre de 2026</b></div>'+
+     (plan.length? '<div class="plan">'+plan.map(function(p,i){ return '<div class="pl"><div><b>'+esc(p.nom)+'</b><small>C.C. '+esc(p.doc)+' · '+esc(p.car)+'</small><small>'+esc(p.fecha)+(p.quiz?' · Evaluación '+esc(p.quiz):'')+'</small></div><img src="'+p.firma+'" alt="Firma de '+esc(p.nom)+'"><button class="b sm danger no-print" type="button" data-del="'+i+'" aria-label="Eliminar">'+ic("x")+'</button></div>'; }).join("")+'</div>'
+      : '<p class="fine">Aún no hay firmas en este equipo. La primera aparecerá aquí con su fecha y hora de Colombia.</p>')+
+     '<div id="delConfirm"></div>'+
+    '</div>'+
+   '</div></div></section>';
+}
+var sigDirty=false;
+function initSig(){
+  var c=$("#sig"); if(!c) return; var ctx=c.getContext("2d"); var dpr=window.devicePixelRatio||1;
+  function size(){ var r=c.getBoundingClientRect(); c.width=r.width*dpr; c.height=r.height*dpr; ctx.setTransform(dpr,0,0,dpr,0,0); ctx.lineWidth=2.2; ctx.lineCap="round"; ctx.lineJoin="round"; ctx.strokeStyle="#1F2933"; sigDirty=false; }
+  size();
+  var drawing=false;
+  function pt(e){ var r=c.getBoundingClientRect(); return [e.clientX-r.left, e.clientY-r.top]; }
+  c.addEventListener("pointerdown",function(e){ drawing=true; c.setPointerCapture(e.pointerId); var p=pt(e); ctx.beginPath(); ctx.moveTo(p[0],p[1]); });
+  c.addEventListener("pointermove",function(e){ if(!drawing) return; var p=pt(e); ctx.lineTo(p[0],p[1]); ctx.stroke(); sigDirty=true; });
+  ["pointerup","pointercancel","pointerleave"].forEach(function(ev){ c.addEventListener(ev,function(){ drawing=false; }); });
+  $("#sigClr").addEventListener("click",function(){ ctx.clearRect(0,0,c.width,c.height); sigDirty=false; });
+  var upd=function(){ var n=$("#c_nom").value.trim()||"__________________", d=$("#c_doc").value.trim()||"__________", k=$("#c_car").value.trim()||"__________";
+    $("#cTxt").innerHTML='Yo, <b>'+esc(n)+'</b>, identificado(a) con cédula de ciudadanía No. <b>'+esc(d)+'</b>, en el cargo de <b>'+esc(k)+'</b>, hago constar que recibí, leí y entendí el Reglamento Interno de Trabajo de Distrileco Caucasia S.A.S., actualizado en junio de 2026, y que participé en su socialización realizada el 19 de octubre de 2026 (artículo 113 del RIT).'; };
+  ["c_nom","c_doc","c_car"].forEach(function(id){ $("#"+id).addEventListener("input",upd); }); upd();
+  $("#fCons").addEventListener("submit",function(e){ e.preventDefault();
+    var nom=$("#c_nom").value.trim(), doc=$("#c_doc").value.trim(), car=$("#c_car").value.trim();
+    if(!nom||!doc||!car){ $("#cErr").textContent="Completa nombre, cédula y cargo."; return; }
+    if(!sigDirty){ $("#cErr").textContent="Falta la firma: dibújala en el recuadro."; return; }
+    if(!$("#c_ok").checked){ $("#cErr").textContent="Marca la casilla de declaración para firmar."; return; }
+    var tmp=document.createElement("canvas"); tmp.width=360; tmp.height=144; var t=tmp.getContext("2d"); t.fillStyle="#fff"; t.fillRect(0,0,360,144); t.drawImage(c,0,0,360,144);
+    var q=store("quiz"); var now=new Date();
+    var fecha = new Intl.DateTimeFormat("es-CO",{timeZone:"America/Bogota",day:"numeric",month:"short",year:"numeric",hour:"numeric",minute:"2-digit"}).format(now);
+    var plan=store("plan")||[]; plan.push({nom:nom,doc:doc,car:car,fecha:fecha,iso:now.toISOString(),quiz:q?(q.s+"/"+q.t):"",firma:tmp.toDataURL("image/png")});
+    store("plan",plan); toast("Constancia firmada por "+nom); route();
+  });
+}
+function planCsv(){ var plan=store("plan")||[]; var rows=[["Nombre","Cédula","Cargo","Fecha y hora (Colombia)","Evaluación"]].concat(plan.map(function(p){ return [p.nom,p.doc,p.car,p.fecha,p.quiz]; })); return rows.map(function(r){ return r.map(function(c){ return '"'+String(c).replace(/"/g,'""')+'"'; }).join(";"); }).join("\r\n"); }
+
+/* ====================== MODO PRESENTACIÓN ====================== */
+var SLIDES = (function(){ var s=[{k:"cover"},{k:"agenda"}]; MODS.forEach(function(m){ if(m.lead) s.push({k:"div", m:m}); modLessons(m.id).forEach(function(l){ s.push({k:"l", l:l}); }); }); return s; })();
+var PI=0, showNotes=false;
+function slideHtml(s){
+  if(s.k==="cover") return '<div class="slide dark"><div class="cover-logos"><img src="logo-distrileco.png" alt="Distrileco"><img src="logo-velez-rivero.png" alt="Vélez Rivero Abogados"></div><div class="eyebrow">Socialización · 19 de octubre de 2026 · Distrileco Caucasia S.A.S.</div><h2>Reglamento Interno de Trabajo, proceso disciplinario, prestaciones sociales, cesantías y seguridad y salud en el trabajo</h2><p>Socialización de derechos y deberes para los colaboradores de Distrileco Caucasia S.A.S.</p><p style="margin-top:22px;color:#fff"><b>Dr. Juan David Tangarife Vélez</b><br><span style="color:#AAB6C2">Abogado · Asesor jurídico de Distrileco Caucasia S.A.S.</span></p></div>';
+  if(s.k==="agenda") return '<div class="slide"><div class="eyebrow">Contenido de la socialización</div><h2>Temas a tratar</h2><div class="blocks"><div class="cards">'+MODS.map(function(m){ return '<div class="card"><div class="ch"><span class="ci">'+ic(m.i)+'</span>'+esc(m.t)+'</div><p>'+esc(m.d)+'</p></div>'; }).join("")+'</div><p style="color:var(--muted);font-size:14px">Las preguntas se atienden al cierre de cada tema y en el espacio final de la sesión.</p></div><div class="sfoot"><span>'+FOOT+'</span><span>02</span></div></div>';
+  if(s.k==="div") return '<div class="slide dark"><div class="eyebrow">Tema '+s.m.n+'</div><h2>'+esc(s.m.t)+'</h2><p style="font-family:var(--f-display);font-size:19px;color:#E6EBF0;margin-top:14px">'+esc(s.m.lead)+'</p><p style="margin-top:18px;font-size:13px">'+esc(s.m.refs)+'</p></div>';
+  var l=s.l, m=modById(l.m);
+  return '<div class="slide"><div class="eyebrow">'+m.n+' · '+esc(m.t)+'</div><h2>'+esc(l.t)+'</h2><div class="blocks">'+l.b.filter(function(b){ return b.t!=="tool"&&b.t!=="cta"&&b.t!=="more"; }).map(rb).join("")+'</div><div class="sfoot"><span>'+FOOT+'</span><span>'+String(l.s).padStart(2,"0")+'</span></div></div>';
+}
+function slideNotes(s){ if(s.k==="cover") return "Bienvenida. Presentarse como asesor jurídico de la empresa. Explicar que la sesión dura aproximadamente una hora, que el Reglamento fue actualizado en junio de 2026 conforme a la Ley 2466 de 2025 y que, además del Reglamento, se abordarán aspectos esenciales de la relación laboral y de las prestaciones sociales, en particular las cesantías. Al final habrá espacio para preguntas y se firmará la constancia de recibo (arts. 101 y 113 del RIT).";
+  if(s.k==="agenda") return "Presentar los temas sin anunciar tiempos. Orientación interna para el expositor: Reglamento, cinco minutos; relaciones laborales y prestaciones, veinte; proceso disciplinario, quince; seguridad y salud, diez; convivencia y preguntas, diez.";
+  if(s.k==="div") return s.m.notes; return s.l.n; }
+function presShow(){
+  var s=SLIDES[PI]; $("#stage").innerHTML=slideHtml(s); $("#stage").scrollTop=0;
+  $("#pCount").textContent=(PI+1)+" / "+SLIDES.length;
+  $("#pSec").textContent = s.k==="l" ? modById(s.l.m).t : (s.k==="div"? s.m.t : "");
+  $("#pBar").style.width=((PI+1)*100/SLIDES.length)+"%";
+  var n=$("#notes"); n.hidden=!showNotes; n.innerHTML='<h4>Notas del expositor</h4><p style="margin:0">'+esc(slideNotes(s))+'</p>';
+  $("#pNotes").classList.toggle("on",showNotes);
+  if(s.k==="l") markRead(s.l.id);
+}
+function presOpen(i){ PI=Math.max(0,Math.min(SLIDES.length-1,i||0)); $("#pres").hidden=false; document.body.style.overflow="hidden"; presShow(); try{ if(navigator.wakeLock) navigator.wakeLock.request("screen").catch(function(){}); }catch(e){} }
+function presClose(){ $("#pres").hidden=true; document.body.style.overflow=""; try{ if(document.fullscreenElement) document.exitFullscreen(); }catch(e){} route(); }
+function presGo(d){ var n=PI+d; if(n<0||n>=SLIDES.length) return; PI=n; presShow(); }
+
+/* ====================== ROUTER ====================== */
+function route(){
+  var h = (location.hash||"#inicio").slice(1);
+  var app=$("#app"), cur=h, html="";
+  if(h.indexOf("leccion-")===0){ html=vLeccion(h.slice(8)); cur="temas"; }
+  else if(h.indexOf("modulo-")===0 || h==="temas"){ html=vTemas(); cur="temas"; }
+  else if(h==="herramientas"){ html=vHerramientas(); }
+  else if(h==="evaluacion"){ html=vEvaluacion(); }
+  else if(h==="constancia"){ html=vConstancia(); }
+  else if(h==="buscar"){ html=vBuscar(); }
+  else { html=vInicio(); cur="inicio"; }
+  app.innerHTML=html; renderNav(cur);
+  if(h.indexOf("modulo-")===0){ var el=document.getElementById(h); if(el) setTimeout(function(){ el.scrollIntoView({block:"start"}); window.scrollBy(0,-80); },0); }
+  else window.scrollTo(0,0);
+  if(h==="herramientas") calcTool();
+  if(h==="evaluacion") quizRender();
+  if(h==="constancia") initSig();
+  if(h==="buscar"){ var qi=$("#q"); qi.focus(); qi.addEventListener("input",function(){ doSearch(qi.value); }); }
+  try{ store("last",h); }catch(e){}
+}
+
+/* ====================== EVENTOS ====================== */
+document.addEventListener("click", function(e){
+  var t=e.target.closest("[data-tool]"); if(t){ TOOL=t.getAttribute("data-tool"); if(location.hash==="#herramientas"){ e.preventDefault(); route(); } }
+  t=e.target.closest("[data-tab]"); if(t){ TOOL=t.getAttribute("data-tab"); $$("[data-tab]").forEach(function(b){ b.classList.toggle("on", b===t); }); $("#toolBody").innerHTML=toolBody(TOOL); calcTool(); return; }
+  t=e.target.closest("[data-read]"); if(t){ markRead(t.getAttribute("data-read")); toast("Lección marcada como leída"); route(); return; }
+  t=e.target.closest("[data-autoread]"); if(t){ markRead(t.getAttribute("data-autoread")); }
+  t=e.target.closest("[data-present]"); if(t){ presOpen(+t.getAttribute("data-present")); return; }
+  t=e.target.closest("[data-present-lesson]"); if(t){ var id=t.getAttribute("data-present-lesson"); var i=0; SLIDES.forEach(function(s,k){ if(s.k==="l"&&s.l.id===id) i=k; }); presOpen(i); return; }
+  t=e.target.closest("[data-copy]"); if(t){ copyText(t.getAttribute("data-copy")); return; }
+  t=e.target.closest("[data-opt]"); if(t && QS){ var a=+t.getAttribute("data-opt"); QS.ans[QS.i]=a; if(a===QUIZ[QS.i].a) QS.s++; quizRender(); return; }
+  if(e.target.closest("#qStart")){ quizStart(); return; }
+  if(e.target.closest("#qNext")){ QS.i++; quizRender(); $("#quiz").scrollIntoView({block:"nearest"}); return; }
+  t=e.target.closest("[data-del]"); if(t){ var di=+t.getAttribute("data-del"); var p=(store("plan")||[])[di]; $("#delConfirm").innerHTML='<div class="callout warn" style="margin-top:12px">'+ic("warn")+'<div>¿Eliminar la firma de <b>'+esc(p.nom)+'</b>? <div style="display:flex;gap:8px;margin-top:8px"><button class="b sm danger" type="button" data-delok="'+di+'">Eliminar</button><button class="b sm ghost" type="button" data-delno>Cancelar</button></div></div></div>'; return; }
+  t=e.target.closest("[data-delok]"); if(t){ var pl=store("plan")||[]; pl.splice(+t.getAttribute("data-delok"),1); store("plan",pl); toast("Firma eliminada"); route(); return; }
+  if(e.target.closest("[data-delno]")){ $("#delConfirm").innerHTML=""; return; }
+  if(e.target.closest("#pPrint")){ window.print(); return; }
+  if(e.target.closest("#pCsv")){ var blob=new Blob(["﻿"+planCsv()],{type:"text/csv;charset=utf-8"}); var a2=document.createElement("a"); a2.href=URL.createObjectURL(blob); a2.download="constancias-RIT-distrileco-"+ymd(bogotaNow())+".csv"; document.body.appendChild(a2); a2.click(); a2.remove(); return; }
+  if(e.target.closest("#pCopy")){ var plan=store("plan")||[]; if(!plan.length){ toast("No hay firmas todavía"); return; } copyText(planCsv().replace(/;/g,"\t").replace(/"/g,"")); return; }
+});
+document.addEventListener("input", function(e){
+  if(e.target.closest("#fRec,#fPre,#fLib,#fPla")) calcTool();
+});
+document.addEventListener("change", function(e){
+  if(e.target.closest("#fRec,#fPre,#fLib,#fPla")) calcTool();
+});
+document.addEventListener("focusout", function(e){
+  var el=e.target; if(el.matches && el.matches("#r_sal,#p_sal,#p_var,#l_sal,#l_otros,#l_cuota")){ el.value=money(parseMoney(el.value)); }
+});
+$("#btnPresent").addEventListener("click", function(){ var h=location.hash.slice(1); var i=0; if(h.indexOf("leccion-")===0){ SLIDES.forEach(function(s,k){ if(s.k==="l"&&s.l.id===h.slice(8)) i=k; }); } presOpen(i); });
+$("#pClose").addEventListener("click", presClose);
+$("#pPrev").addEventListener("click", function(){ presGo(-1); });
+$("#pNext").addEventListener("click", function(){ presGo(1); });
+$("#pNotes").addEventListener("click", function(){ showNotes=!showNotes; presShow(); });
+$("#pFull").addEventListener("click", function(){ try{ var el=$("#pres"); if(document.fullscreenElement) document.exitFullscreen(); else if(el.requestFullscreen) el.requestFullscreen().catch(function(){ toast("Pantalla completa no disponible aquí"); }); }catch(err){ toast("Pantalla completa no disponible aquí"); } });
+document.addEventListener("keydown", function(e){
+  if($("#pres").hidden){ if((e.key==="p"||e.key==="P") && !e.target.closest("input,textarea,select")){ $("#btnPresent").click(); } return; }
+  if(e.key==="ArrowRight"||e.key==="PageDown"||e.key===" "){ e.preventDefault(); presGo(1); }
+  else if(e.key==="ArrowLeft"||e.key==="PageUp"){ e.preventDefault(); presGo(-1); }
+  else if(e.key==="Escape"){ if(!document.fullscreenElement) presClose(); }
+  else if(e.key==="n"||e.key==="N"){ showNotes=!showNotes; presShow(); }
+  else if(e.key==="Home"){ PI=0; presShow(); } else if(e.key==="End"){ PI=SLIDES.length-1; presShow(); }
+});
+(function(){ var sx=null, sy=null; var st=$("#stage");
+  st.addEventListener("touchstart",function(e){ sx=e.touches[0].clientX; sy=e.touches[0].clientY; },{passive:true});
+  st.addEventListener("touchend",function(e){ if(sx===null) return; var dx=e.changedTouches[0].clientX-sx, dy=e.changedTouches[0].clientY-sy; if(Math.abs(dx)>60 && Math.abs(dx)>Math.abs(dy)*1.5) presGo(dx<0?1:-1); sx=null; },{passive:true});
+})();
+window.addEventListener("hashchange", route);
+route();
+
+/* PWA: funciona sin conexión cuando se publica en GitHub Pages o Netlify */
+if("serviceWorker" in navigator && !IN_FRAME && location.protocol==="https:"){ try{ navigator.serviceWorker.register("sw.js").catch(function(){}); }catch(e){} }
+</script>
+
+</body>
+</html>
