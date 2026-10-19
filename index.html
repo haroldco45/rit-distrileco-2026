@@ -355,7 +355,7 @@ footer .wrap{padding-block:22px;display:flex;justify-content:space-between;gap:1
 <footer class="no-print">
   <div class="wrap">
     <span>Contenido jurídico: Dr. Juan David Tangarife Vélez · Vélez Rivero Abogados, asesor jurídico de Distrileco Caucasia S.A.S.</span>
-    <span>App: Vibras Positivas HM</span>
+    <span><a href="https://reglamento-distrileco.netlify.app/" target="_blank" rel="noopener">Reglamento completo</a> · App: Vibras Positivas HM</span>
   </div>
 </footer>
 
@@ -966,6 +966,13 @@ function modProgress(mid){ var ls=modLessons(mid); var r=ls.filter(function(x){ 
 function totalProgress(){ var r=L.filter(function(x){ return READ[x.id]; }).length; return {r:r, t:L.length, p: Math.round(r*100/L.length)}; }
 function modById(id){ return MODS.filter(function(m){ return m.id===id; })[0]; }
 
+var REG = "https://reglamento-distrileco.netlify.app/";
+function refChip(r){
+  if(!/RIT/.test(r)) return '<span class="chip">'+esc(r)+'</span>';
+  var m=r.match(/(\d+)/); if(!m) return '<span class="chip">'+esc(r)+'</span>';
+  var target = /^Faltas?/i.test(r) ? "#falta-"+m[1] : "#art-"+m[1];
+  return '<a class="chip" style="text-decoration:none;color:var(--accent)" href="'+REG+target+'" target="_blank" rel="noopener">'+esc(r)+' ↗</a>';
+}
 /* ====================== RENDER DE BLOQUES ====================== */
 function rb(b){
   switch(b.t){
@@ -1017,7 +1024,7 @@ function vInicio(){
    '<div><div class="eyebrow">Socialización · 19 de octubre de 2026</div>'+
    '<h1>Reglamento Interno de Trabajo, <em>proceso disciplinario</em>, prestaciones sociales, cesantías y seguridad y salud en el trabajo</h1>'+
    '<p>Tus derechos y deberes como colaborador de Distrileco Caucasia S.A.S., con el Reglamento actualizado en junio de 2026 conforme a la Ley 2466 de 2025.</p>'+
-   '<div class="hero-actions"><a class="b pri" href="#leccion-'+(nextL?nextL.id:L[0].id)+'">'+ic("play")+(tp.r?'Continuar':'Empezar')+'</a><button class="b ghost" type="button" data-present="0">'+ic("screen")+'Ver como presentación</button></div>'+
+   '<div class="hero-actions"><a class="b pri" href="#leccion-'+(nextL?nextL.id:L[0].id)+'">'+ic("play")+(tp.r?'Continuar':'Empezar')+'</a><button class="b ghost" type="button" data-present="0">'+ic("screen")+'Ver como presentación</button><a class="b ghost" href="'+REG+'" target="_blank" rel="noopener">'+ic("book")+'Reglamento completo</a></div>'+
    '<div class="who"><img src="logo-velez-rivero.png" alt="Vélez Rivero Abogados"><div><b>Dr. Juan David Tangarife Vélez</b>Abogado · Asesor jurídico de Distrileco Caucasia S.A.S.</div></div></div>'+
    '<div class="prog"><div class="ring"><svg viewBox="0 0 84 84"><circle cx="42" cy="42" r="36" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="8"/><circle cx="42" cy="42" r="36" fill="none" stroke="#6CC59B" stroke-width="8" stroke-linecap="round" stroke-dasharray="'+C+'" stroke-dashoffset="'+(C*(1-tp.p/100))+'" transform="rotate(-90 42 42)"/></svg><div><div class="big">'+tp.p+'%</div><small>'+tp.r+' de '+tp.t+' lecciones leídas</small></div></div>'+
    '<div style="display:grid;gap:6px;font-size:13.5px;color:var(--hero-muted)">'+
@@ -1059,7 +1066,7 @@ function vLeccion(id){
   return '<section class="sec"><div class="wrap read">'+
    '<div class="crumbs"><a href="#temas">Temas</a>'+ic("right")+'<a href="#modulo-'+m.id+'">'+m.n+' · '+esc(m.t)+'</a></div>'+
    '<div class="lesson-h"><div class="eyebrow">Lección '+pos+' de '+ml.length+'</div><h1>'+esc(l.t)+'</h1></div>'+
-   '<div class="refs">'+l.refs.map(function(r){ return '<span class="chip">'+esc(r)+'</span>'; }).join("")+'</div>'+
+   '<div class="refs">'+l.refs.map(refChip).join("")+'</div>'+
    '<div class="blocks">'+l.b.map(rb).join("")+'</div>'+
    '<div class="done-row">'+(READ[l.id]?'<span class="done-pill">'+ic("check")+'Leída</span>':'<button class="b pri" type="button" data-read="'+l.id+'">'+ic("check")+'Marcar como leída</button>')+'<button class="b ghost" type="button" data-present-lesson="'+l.id+'">'+ic("screen")+'Ver en presentación</button></div>'+
    '<nav class="pager">'+(prev?'<a href="#leccion-'+prev.id+'"><small>← Anterior</small><b>'+esc(prev.t)+'</b></a>':'<span></span>')+(next?'<a class="nx" href="#leccion-'+next.id+'" data-autoread="'+l.id+'"><small>Siguiente →</small><b>'+esc(next.t)+'</b></a>':'<a class="nx" href="#evaluacion" data-autoread="'+l.id+'"><small>Terminaste →</small><b>Haz la evaluación</b></a>')+'</nav>'+
